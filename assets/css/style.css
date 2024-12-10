@@ -1,4 +1,6 @@
-/* Asterisk wildcard selector to override default styles added by the browser */
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+  
+    /*Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -24,7 +26,7 @@ header {
 /* Main content */
 main {
 background-color: #FFFFF0;
-
+/*main element to push main down to keep footer at bottom*/
 flex: 1 0 auto;
 }
 
