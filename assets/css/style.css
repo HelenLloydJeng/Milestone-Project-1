@@ -18,6 +18,7 @@ color:#2a2822;
 font-family: "Lora","serif";
 }
 
+
 h1 {
     font-family: "Playfair Display", "serif";
 }
@@ -26,8 +27,12 @@ h1 {
 /*header*/
 header {
     background-color: #CBA328;
-    padding: 10px;
+    padding: 10px 20px;
     text-align: left;
+    justify-content: spacebetween; /*space between logo and burger*/
+    display:flex;
+    align-items: center;
+   
 }
 
 header a {
@@ -39,6 +44,10 @@ header a {
 header h1 {
     font-size: 1.2rem;
     color:#FFFFF0;
+}
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 /*navigation*/
@@ -82,3 +91,38 @@ footer {
     text-align: center;
    padding: 35px;
 }
+
+
+/*for larger screens using media queries*/
+/*for tablets min width 768px) */
+@media (min-width: 768px) {
+header {
+    text-align: left; /* Align content to the left */
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 1.5rem;
+}
+nav ul {
+flex-direction: row; /*align links*/
+justify-content: right;
+}
+/*space between margins*/
+nav ul li {
+    margin: 0 15px;
+}
+
+/* For Desktops (min-width: 1024px) */
+
+@media (min-width: 1024px) {
+    header {
+        padding: 30px;
+
+    header h1 {
+        font-size: 2rem; /*larger for desktops*/
+    }
+    main {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
