@@ -15,6 +15,11 @@ flex-direction: column;
 
 /* Generic project styles */
 color:#2a2822;
+font-family: "Lora","serif";
+}
+
+h1 {
+    font-family: "Playfair Display", "serif";
 }
 /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
 
