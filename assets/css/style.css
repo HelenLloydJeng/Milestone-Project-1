@@ -27,7 +27,7 @@ h1 {
 header {
     background-color: #CBA328;
     padding: 10px;
-    text-align: center;
+    text-align: left;
 }
 
 header a {
@@ -46,10 +46,16 @@ nav ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
+    text-align: right;
 
     padding: 0;
     gap: 10px;
     background-color: #CBA328;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #FFFFF0;
+    font-weight: bold;
 }
     
 
