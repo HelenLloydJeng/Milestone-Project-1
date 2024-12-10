@@ -4,3 +4,32 @@
     margin: 0;
     box-sizing:border-box;
 }
+
+/*general styles*/
+body {
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+
+/* Generic project styles */
+color:#2a2822;
+}
+/*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
+
+/*header*/
+header {
+    background-color: #CBA328;
+}
+
+/* Main content */
+main {
+background-color: #FFFFF0;
+
+flex: 1 0 auto;
+}
+
+/*Footer*/
+footer {
+    background-color: #5C5346;
+   
+}
