@@ -51,7 +51,8 @@ img {
 }
 
 /*navigation*/
-nav ul {
+/* remove as changing to single page and bootstrap nav bar
+ nav  {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -65,11 +66,22 @@ nav ul li a {
     text-decoration: none;
     color: #FFFFF0;
     font-weight: bold;
-    transition: color 0.3 ease; /*color change slow when hover is used*/
+    transition: color 0.3 ease; /*color change slow when hover is used
 }
   nav ul li a:hover {
     color: #CBA328
-  }  
+  }  */
+
+  .navbar {
+    background-color: #CBA328 !important;
+}
+.navbar .nav-link {
+    color: #FFFFF0 !important; /* overide bootstrap color Replace my text color */
+}
+
+.navbar-brand {
+    color: #2a2822 !important; /* override bootstrap colourcolor */
+}
 
 /* Main content */
 main {
