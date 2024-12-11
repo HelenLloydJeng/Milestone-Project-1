@@ -65,8 +65,11 @@ nav ul li a {
     text-decoration: none;
     color: #FFFFF0;
     font-weight: bold;
+    transition: color 0.3 ease; /*color change slow when hover is used*/
 }
-    
+  nav ul li a:hover {
+    color: #CBA328
+  }  
 
 /* Main content */
 main {
