@@ -50,6 +50,22 @@ img {
     height: auto;
 }
 
+/*change button color globally overide bootstrap*/
+
+.btn {
+    background-color:#CBA328;
+    border-color:#CBA328;
+    color:#FFFFF0;
+}
+
+.btn:hover {
+    background-color: #a98624;
+    border-color:#a98624;
+}
+
+
+
+
 /*navigation*/
 /* remove as changing to single page and bootstrap nav bar
  nav  {
@@ -172,12 +188,13 @@ h2 {
 }
 
 /*Footer*/
-footer {
-    background-color: #5C5346;
-    text-align: center;
-   padding: 35px;
-}
 
+footer {
+    background-color: #5C5346 !important;
+    color: #FFFFF0 !important; /*to read text against brown background*/
+    text-align: center;
+    padding: 36px;
+}
 
 /*for larger screens using media queries*/
 /*for tablets min width 768px) */
@@ -221,11 +238,4 @@ nav ul li {
     .card-text {
         font-size: 1rem;
     }
-
-    footer {
-        background-color: #5C5346 !important;
-        color: #FFFFF0 !important; /*to read text against brown background*/
-        text-align: center;
-        padding: 36px;
-    }
-    
+   
