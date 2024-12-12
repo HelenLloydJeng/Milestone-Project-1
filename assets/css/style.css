@@ -94,11 +94,46 @@ padding: 15px;
 
 }
 
+
 h2 {
     font-family: "Playfair Display" "serif";
     color: #CBA328;
     margin-bottom: 10px;
 }
+
+#bio {background-color: #f9f9f9;
+    /*ligt background */
+    padding:50px 0; /* to adjustsection padding*/
+}
+
+#bio .container {
+    max-width: 1200px; /*limit maximun width*/
+    margin: auto
+}
+
+#bio img {
+    max-width: 100%; /*image responsive*/
+    height: auto; /*maintain ratio aspect*/
+    border: 5px solid #CBA328; /*add the border color*/
+    margin-bottom: 20px; /*add spacing*/
+}
+
+#bio h2 {
+    color:#CBA328;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+#bio p {
+    font-size: 1 rem;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #2a2822;
+    text-align: justify; /* Align text  */
+}
+
+
 
 /*Footer*/
 footer {
