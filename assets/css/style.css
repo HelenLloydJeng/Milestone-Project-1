@@ -221,3 +221,11 @@ nav ul li {
     .card-text {
         font-size: 1rem;
     }
+
+    footer {
+        background-color: #5C5346 !important;
+        color: #FFFFF0 !important; /*to read text against brown background*/
+        text-align: center;
+        padding: 36px;
+    }
+    
