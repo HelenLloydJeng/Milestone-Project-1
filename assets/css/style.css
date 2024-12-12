@@ -133,7 +133,43 @@ h2 {
     text-align: justify; /* Align text  */
 }
 
+/*style portfolio*/
+#portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
 
+}
+/*card styling*/
+.card {
+    transition: transforn 0.3s;
+    border:#CBA328;
+    box-shadow: 0 4px 8px rgba 0, 0, 0, 0,2;
+    overflow: hidden;
+}
+.card:hover {
+    transform: scale(1.05)
+}
+/*ensure image dont overflow*/
+.card-img-top {
+    height: 300px;
+    object-fit: cover; /*image fills white space*/
+}
+
+/* Fix overflow issue for Drama Classes */
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-title {
+    font-weight:bold;
+    color:#CBA328
+}
+.card-text {
+    font-size: 1rem;
+    color:#555;
+    line-height:1.5;
+}
 
 /*Footer*/
 footer {
@@ -175,4 +211,13 @@ nav ul li {
     main {
         max-width: 1200px;
         margin: 0 auto;
+    }
+    .card-img-top {
+        height: 400px;
+    }
+    .card-title {
+        font-size: 1.5rem;
+    }
+    .card-text {
+        font-size: 1rem;
     }
