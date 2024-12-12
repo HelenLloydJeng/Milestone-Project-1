@@ -80,7 +80,7 @@ nav ul li a {
 }
 
 .navbar-brand {
-    color: #2a2822 !important; /* override bootstrap colourcolor */
+    color: #FFFFF0 !important; /* override bootstrap colourcolor */
 }
 
 /* Main content */
