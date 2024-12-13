@@ -23,6 +23,12 @@
         font-family: "Playfair Display", "serif";
     }
 
+    img {
+        width: 300px; /* Default width */
+        height: auto; /* Maintain aspect ratio */
+        max-width: 100%; /* Ensure the image does not overflow its container */
+    }
+
     /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
 
     /*header*/
@@ -30,7 +36,7 @@
         background-color: #CBA328;
         padding: 10px 20px;
         text-align: left;
-        justify-content: spacebetween;
+        justify-content: space-between;
         /*space between logo and burger*/
         display: flex;
         align-items: center;
@@ -117,7 +123,7 @@
 
 
     h2 {
-        font-family: "Playfair Display""serif";
+        font-family: "Playfair Display","serif";
         color: #CBA328;
         margin-bottom: 10px;
     }
@@ -154,7 +160,7 @@
     }
 
     #bio p {
-        font-size: 1 rem;
+        font-size: 1rem;
         line-height: 1.6;
         margin-bottom: 10px;
         color: #2a2822;
@@ -173,8 +179,9 @@
     .card {
         transition: transforn 0.3s;
         border: #CBA328;
-        box-shadow: 0 4px 8px rgba 0, 0, 0, 0, 2;
-        overflow: hidden;
+        card {
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            overflow: hidden;
     }
 
     .card:hover {
@@ -247,8 +254,13 @@
 
                 header h1 {
                     font-size: 2rem;
-                    /*larger for desktops*/
                 }
+
+                    img {
+                        width: 500px; /* Larger size for bigger screens */
+                        height: auto; /* Maintain aspect ratio */
+                    }
+
 
                 main {
                     max-width: 1200px;
@@ -265,4 +277,9 @@
 
                 .card-text {
                     font-size: 1rem;
+                }
+
+                img {
+                    width: 800px;
+                    height: auto;
                 }
