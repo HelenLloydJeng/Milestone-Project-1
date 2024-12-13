@@ -183,3 +183,25 @@ MVP
   **Events Section** (Optional): Highlights upcoming workshops, performances, or speaking engagements.
 **Testimonials**: Optional Displays feedback from students, collaborators, and industry professionals.
 -
+
+**Main Technologies**
+
+- **HTML5**: For semantic and accessible page structure.
+- **CSS3**: Clean a## nd responsive design with a minimalist aesthetic.
+- **Bootstrap** (Optional): For responsive layouts, grid systems, and navigation components.
+- **Git & GitHub**: For version control and deployment.
+
+## **Website Structure**
+### **Pages/Sections**
+
+1. **Home Page**
+   - A welcoming section with an introduction to Carrie Jones.
+   - Quick links to her portfolio, biography, and contact sections.
+
+2. **Portfolio Section**
+   - A showcase of projects with summaries, images, and relevant details.
+   - Organized in a grid layout or card system for clarity and accessibility.
+
+3. **Contact/About section**
+   - two sections with a detailed biography and a fully functional contact form.
+   - Social media links and direct contact details displayed intuitively.
