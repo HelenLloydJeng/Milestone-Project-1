@@ -1,131 +1,185 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Helen Lloyd,
+## **Project Objectives**
+### **Purpose**
+The primary goal of this portfolio website is to:
+- Highlight Carrie’s accomplishments as a writer playwright and drama teacher.
+- Provide potential collaborators and clients with an engaging platform to explore her projects.
+- Establish Carrie’s online presence with a professional, responsive, and accessible design.
+- Showcase her teaching initiatives and workshops in an interactive and informative manner.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## User Experience (UX)
+### Project Goals
+1. **Business Goals**: 
+   - Promote Carrie Jones's work to readers, literary agents, and publishers.
+   - Provide clear contact options for professional inquiries.
+   - Build a community of readers and followers through blog posts, event and engagement features.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+2. **Customer Goals**:
+   - Provide easy access to information about Carrie Jones’s screenwriting, plays and events
+   - Offer insights into Carrie’s creative process and updates on new releases.
+   - Allow users to connect with Carrie through blog posts events and social media.
 
-## Gitpod Reminders
+### User Goals
+#### New Users
+- Learn about Carrie Jones and her plays and workshops.
+- Easily navigate the site to find specific information.
+- View sample scenes or synopses of her scripts.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+#### Returning Users
+- Stay updated on Carrie’s latest projects via blog posts.
+- Access details about upcoming play performances or events.
+- Engage through comments or newsletters.
 
-`python3 -m http.server`
+#### Frequent Users
+- Quickly find updates about Carrie’s workshops or play premieres.
+- Engage with Carrie’s ongoing discussions or writing prompts.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+## **User Stories**
+### **External Users (Site Visitors)**
+## **User Story 1: Potential Clients**
+**Objective:** Learn about Carrie’s expertise and projects to evaluate her suitability for creative collaborations.
+### ✅ **Must Have**  
+- A **Portfolio Section** showcasing selected writing, plays, and creative projects.
+### 🔵 **Should Have**  
+- A section with detailed project descriptions, including Carrie’s creative contributions.
+### 🟢 **Could Have**  
+- Multimedia content showcasing excerpts from plays or collaborative projects.
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
+### ✅ **Acceptance Criteria**
+1. The portfolio section should display project summaries with images and descriptions.
+2. Each project should include details about Carrie’s role and creative process.
+3. Navigation to the portfolio should be fast and intuitive.
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
-
-### Connecting your Mongo database
-
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**June 18, 2024,** Add Mongo back into template
-
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
-
-**May 28 2024:** Fix Mongo and Links installs
-
-**April 26 2024:** Update node version to 16
-
-**September 20 2023:** Update Python version to 3.9.17.
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+### 📝 **Task List**
+- [ ] Create a dedicated Portfolio Page.
+- [ ] Organise projects into categories (Plays, Writing, Collaborations).
+- [ ] Include high-quality images and project descriptions.
+- [ ] Optimise load times for multimedia content.
 
 ---
+## **User Story 2: Drama Enthusiasts**
+**Objective:** Explore Carrie’s creative projects, plays, and workshops to deepen their understanding and appreciation of the art.
+### ✅ **Must Have**  
+- A **Works Section** showcasing plays, projects, and creative excerpts.
+### 🔵 **Should Have**  
+- Multimedia excerpts from plays and creative projects.
+### 🟢 **Could Have**  
+- Behind-the-scenes content and interactive creative workshops.
+### ✅ **Acceptance Criteria**
+1. Projects and plays should include multimedia and visual elements.
+2. Each project should have a description of the plays
+3. Navigation should be easy and visually appealing.
+### 📝 **Task List**
+- [ ] Create sections for Plays, Writing, and Creative Projects.
+- - [ ] Provide clear and concise descriptions for each project.
 
-Happy coding!
+### **User Story 3 Collaborators (Producers, Actors, Directors)**
+**Objective:** Quickly find contact details and collaborate on creative projects.
+### ✅ **Must Have**  
+- A **Contact Section** with an inquiry form, social media links, and direct email information.
+### 🔵 **Should Have**  
+- Collaboration testimonials and examples of past creative projects.
+### 🟢 **Could Have**  
+- Links to collaborative platforms, schedules, and behind-the-scenes content.
+
+### ✅ **Acceptance Criteria**
+1. A functional **Contact Section** should include an email form, social links, and direct contact details.
+2. Collaboration testimonials should highlight Carrie’s past creative partnerships.
+3. The contact form should send messages without errors.
+
+### 📝 **Task List**
+- [ ] Create a **Contact/About Page** with an inquiry form.
+- [ ] Embed social media profiles and links to professional platforms.
+- [ ] Showcase examples of successful collaborations and testimonials.
+
+---
+### **Internal User (Carrie Jones)**
+## **User Story 4 : Present Creative and Educational Accomplishments**
+**Objective:** Present her biography, achievements, and creative contributions professionally.
+
+### ✅ **Must Have**  
+- A well-structured **About - Biography Section** with achievements and career highlights.
+
+### 🔵 **Should Have**  
+- Images and multimedia showcasing her accomplishments.
+
+### 🟢 **Could Have**  
+- A timeline highlighting significant milestones in Carrie’s creative journey.
+### ✅ **Acceptance Criteria**
+1. The Biography page should include relevant text, photos, and multimedia.
+2. Key achievements should be presented in a chronological or thematic order.
+
+### 📝 **Task List**
+- [ ] Create a **About Page**.
+- [ ] Include photos, videos, and creative project milestones.
+- [ ] Organise content in an intuitive and visually appealing format.
+
+## **User Story 5: Centralise Portfolio Content**
+**Objective:** Showcase her portfolio of plays, writing, and teaching initiatives in a clean and accessible format.
+### ✅ **Must Have**  
+- A well-organised **Portfolio Page** that categorises content clearly.
+
+### 🔵 **Should Have**  
+- Categories for different types of work (Plays, Writing, Teaching).
+
+### 🟢 **Could Have**  
+- Interactive elements, such as carousels or collapsible sections.
+
+### ✅ **Acceptance Criteria**
+1. The Portfolio Page should organise projects into clear categories.
+2. Each project should have concise summaries, images, and descriptions.
+
+### 📝 **Task List**
+- [ ] Design and implement sections for Plays, Writing, and Teaching Projects.
+- [ ] Use multimedia elements (images, videos) to enhance each project entry.
+- [ ] Create interactive elements to improve navigation and user experience.
+
+## **User Story 6: Promote Workshops and Events**
+**Objective:** Share information about workshops and creative events with a wider audience.
+### **Should Have**  
+- An **Events Page** showcasing upcoming workshops, classes, and talks.
+### 🔵 **Should Have**  
+- Integration for booking, registration, and event details.
+### 🟢 **Could Have**  
+- Testimonials and behind-the-scenes photos of past workshops and creative activities.
+### ✅ **Acceptance Criteria**
+1. The Events Page should contain accurate details about workshops and creative initiatives.
+2. A booking system or registration link should be functional and accessible.
+### 📝 **Task List**
+- [ ] Create an **Events Page** to list upcoming workshops and classes.
+- [ ] Provide booking details and relevant event information.
+- [ ] Include multimedia content showcasing past workshops and classes.
+
+## **User Story 7  Maintain a User-Friendly Interface**
+**Objective:** Ensure site visitors can easily navigate and interact with the website.
+### ✅ **Must Have**  
+- A fixed, responsive **Navigation Bar** for quick access to all sections.
+### 🔵 **Should Have**  
+- Smooth animations and transitions for an enhanced user experience.
+### 🟢 **Could Have**  
+- Interactive elements like dropdowns, modals, and collapsible sections.
+### ✅ **Acceptance Criteria**
+1. The navigation should be consistent across all sections of the website.
+2. Transitions and animations should be seamless and not hinder performance.
+### 📝 **Task List**
+- [ ] Implement a **Fixed, Responsive Navigation Bar**.
+- [ ] Optimise animations and transitions to ensure a smooth interface experience.
+- [ ] Test all interactive elements across different devices (desktop, tablet, mobile).-
+
+
+## **Features**
+### **Website Highlights**
+MVP
+- **Responsive Design**: The site is fully responsive, ensuring an optimal experience on all devices.
+- **Structured Navigation**: A clear and intuitive navigation bar guides users to all major sections of the site.
+- **Portfolio Showcase**: Features Carrie’s works, including summaries and images of her plays.
+- **Contact Section**: Provides a contact form, email, and social media links for easy connection.
+- **Biography**: A dedicated section presenting Carrie’s background, skills, and teaching philosophy.
+- **Testimonials**: Optional Displays feedback from students, collaborators, and industry professionals.
+-** Phase 2
+  **Events Section** (Optional): Highlights upcoming workshops, performances, or speaking engagements.
+**Testimonials**: Optional Displays feedback from students, collaborators, and industry professionals.
+-
