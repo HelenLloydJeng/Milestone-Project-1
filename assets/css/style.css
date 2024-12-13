@@ -1,241 +1,268 @@
     @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
-  
+
     /*Asterisk wildcard selector to override default styles added by the browser */
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing:border-box;
-}
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-/*general styles*/
-body {
-min-height: 100vh;
-display: flex;
-flex-direction: column;
+    /*general styles*/
+    body {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
 
-/* Generic project styles */
-color:#2a2822;
-font-family: "Lora","serif";
-}
-
-
-h1 {
-    font-family: "Playfair Display", "serif";
-}
-/*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
-
-/*header*/
-header {
-    background-color: #CBA328;
-    padding: 10px 20px;
-    text-align: left;
-    justify-content: spacebetween; /*space between logo and burger*/
-    display:flex;
-    align-items: center;
-   
-}
-
-header a {
-    text-decoration: none; /*remove underline*/
-    color: inherit;
-}
-
-/*optimized for mobile*/
-header h1 {
-    font-size: 1.2rem;
-    color:#FFFFF0;
-}
-img {
-    max-width: 100%;
-    height: auto;
-}
-
-/*change button color globally overide bootstrap*/
-
-.btn {
-    background-color:#CBA328;
-    border-color:#CBA328;
-    color:#FFFFF0;
-}
-
-.btn:hover {
-    background-color: #a98624;
-    border-color:#a98624;
-}
+        /* Generic project styles */
+        color: #2a2822;
+        font-family: "Lora", "serif";
+    }
 
 
+    h1 {
+        font-family: "Playfair Display", "serif";
+    }
 
+    /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
 
-/*navigation*/
-/* remove as changing to single page and bootstrap nav bar
- nav  {
-    list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    text-align: right;
-
-    padding: 0;
-    gap: 10px;
-    background-color: #CBA328;
-}
-nav ul li a {
-    text-decoration: none;
-    color: #FFFFF0;
-    font-weight: bold;
-    transition: color 0.3 ease; /*color change slow when hover is used
-}
-  nav ul li a:hover {
-    color: #CBA328
-  }  */
-
-  .navbar {
-    background-color: #CBA328 !important;
-}
-.navbar .nav-link {
-    color: #FFFFF0 !important; /* overide bootstrap color Replace my text color */
-}
-
-.navbar-brand {
-    color: #FFFFF0 !important; /* override bootstrap colourcolor */
-}
-
-/* Main content */
-main {
-background-color: #FFFFF0;
-/*main element to push main down to keep footer at bottom*/
-flex: 1 0 auto;
-font-size: 1rem;
-line-height: 1.5;
-padding: 15px;
-
-}
-
-
-h2 {
-    font-family: "Playfair Display" "serif";
-    color: #CBA328;
-    margin-bottom: 10px;
-}
-
-#bio {background-color: #f9f9f9;
-    /*ligt background */
-    padding:50px 0; /* to adjustsection padding*/
-}
-
-#bio .container {
-    max-width: 1200px; /*limit maximun width*/
-    margin: auto
-}
-
-#bio img {
-    max-width: 100%; /*image responsive*/
-    height: auto; /*maintain ratio aspect*/
-    border: 5px solid #CBA328; /*add the border color*/
-    margin-bottom: 20px; /*add spacing*/
-}
-
-#bio h2 {
-    color:#CBA328;
-    font-family: "Playfair Display", serif;
-    margin-bottom: 15px;
-    text-align: center;
-}
-
-#bio p {
-    font-size: 1 rem;
-    line-height: 1.6;
-    margin-bottom: 10px;
-    color: #2a2822;
-    text-align: justify; /* Align text  */
-}
-
-/*style portfolio*/
-#portfolio {
-    padding-top: 50px;
-    padding-bottom: 50px;
-
-}
-/*card styling*/
-.card {
-    transition: transforn 0.3s;
-    border:#CBA328;
-    box-shadow: 0 4px 8px rgba 0, 0, 0, 0,2;
-    overflow: hidden;
-}
-.card:hover {
-    transform: scale(1.05)
-}
-/*ensure image dont overflow*/
-.card-img-top {
-    height: 300px;
-    object-fit: cover; /*image fills white space*/
-}
-
-/* Fix overflow issue for Drama Classes */
-.img-fluid {
-    max-width: 100%;
-    height: auto;
-}
-
-.card-title {
-    font-weight:bold;
-    color:#CBA328
-}
-.card-text {
-    font-size: 1rem;
-    color:#555;
-    line-height:1.5;
-}
-
-/*Footer*/
-
-footer {
-    background-color: #5C5346 !important;
-    color: #FFFFF0 !important; /*to read text against brown background*/
-    text-align: center;
-    padding: 36px;
-}
-
-/*for larger screens using media queries*/
-/*for tablets min width 768px) */
-@media (min-width: 768px) {
-header {
-    text-align: left; /* Align content to the left */
-    padding: 20px;
-}
-
-header h1 {
-    font-size: 1.5rem;
-}
-nav ul {
-flex-direction: row; /*align links*/
-justify-content: right;
-}
-/*space between margins*/
-nav ul li {
-    margin: 0 15px;
-}
-
-/* For Desktops (min-width: 1024px) */
-
-@media (min-width: 1024px) {
+    /*header*/
     header {
-        padding: 30px;
+        background-color: #CBA328;
+        padding: 10px 20px;
+        text-align: left;
+        justify-content: spacebetween;
+        /*space between logo and burger*/
+        display: flex;
+        align-items: center;
 
+    }
+
+    header a {
+        text-decoration: none;
+        /*remove underline*/
+        color: inherit;
+    }
+
+    /*optimized for mobile*/
     header h1 {
-        font-size: 2rem; /*larger for desktops*/
+        font-size: 1.2rem;
+        color: #FFFFF0;
     }
+
+   .hero-img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
+
+   }
+    .hero-text {
+        color: #CBA328; /* Gold color */
+    }
+    
+    .hero-text p {
+        color: #CBA328; /* Gold color for paragraph text */
+    }
+
+  
+
+
+    
+    /*change button color globally overide bootstrap*/
+
+    .btn {
+        background-color: #CBA328;
+        border-color: #CBA328;
+        color: #FFFFF0;
+    }
+
+    .btn:hover {
+        background-color: #a98624;
+        border-color: #a98624;
+    }
+
+    .navbar {
+        background-color: #CBA328 !important;
+    }
+
+    .navbar .nav-link {
+        color: #FFFFF0 !important;
+        /* overide bootstrap color Replace my text color */
+    }
+
+    .navbar-brand {
+        color: #FFFFF0 !important;
+        /* override bootstrap colourcolor */
+    }
+    
+
+    .hero-section .overlay {
+        margin: 0;
+        padding:0;
+    }
+
+    
+    
+
+    /* Main content */
     main {
+        background-color: #FFFFF0;
+        /*main element to push main down to keep footer at bottom*/
+        flex: 1 0 auto;
+        font-size: 1rem;
+        line-height: 1.5;
+        padding: 15px;
+
+    }
+
+
+    h2 {
+        font-family: "Playfair Display""serif";
+        color: #CBA328;
+        margin-bottom: 10px;
+    }
+
+    #bio {
+        background-color: #f9f9f9;
+        /*ligt background */
+        padding: 50px 0;
+        /* to adjustsection padding*/
+    }
+
+    #bio .container {
         max-width: 1200px;
-        margin: 0 auto;
+        /*limit maximun width*/
+        margin: auto
     }
+
+    #bio img {
+        max-width: 100%;
+        /*image responsive*/
+        height: auto;
+        /*maintain ratio aspect*/
+        border: 5px solid #CBA328;
+        /*add the border color*/
+        margin-bottom: 20px;
+        /*add spacing*/
+    }
+
+    #bio h2 {
+        color: #CBA328;
+        font-family: "Playfair Display", serif;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    #bio p {
+        font-size: 1 rem;
+        line-height: 1.6;
+        margin-bottom: 10px;
+        color: #2a2822;
+        text-align: justify;
+        /* Align text  */
+    }
+
+    /*style portfolio*/
+    #portfolio {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+    }
+
+    /*card styling*/
+    .card {
+        transition: transforn 0.3s;
+        border: #CBA328;
+        box-shadow: 0 4px 8px rgba 0, 0, 0, 0, 2;
+        overflow: hidden;
+    }
+
+    .card:hover {
+        transform: scale(1.05)
+    }
+
+    /*ensure image dont overflow*/
     .card-img-top {
-        height: 400px;
+        height: 300px;
+        object-fit: cover;
+        /*image fills white space*/
     }
+
+    /* Fix overflow issue for Drama Classes */
+    .img-fluid {
+        max-width: 100%;
+        height: auto;
+    }
+
     .card-title {
-        font-size: 1.5rem;
+        font-weight: bold;
+        color: #CBA328
     }
+
     .card-text {
         font-size: 1rem;
+        color: #555;
+        line-height: 1.5;
     }
-   
+
+    /*Footer*/
+
+    footer {
+        background-color: #5C5346 !important;
+        color: #FFFFF0 !important;
+        /*to read text against brown background*/
+        text-align: center;
+        padding: 36px;
+    }
+
+    /*for larger screens using media queries*/
+    /*for tablets min width 768px) */
+    @media (min-width: 768px) {
+        header {
+            text-align: left;
+            /* Align content to the left */
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 1.5rem;
+        }
+
+        nav ul {
+            flex-direction: row;
+            /*align links*/
+            justify-content: right;
+        }
+
+        /*space between margins*/
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        /* For Desktops (min-width: 1024px) */
+
+        @media (min-width: 1024px) {
+            header {
+                padding: 30px;
+
+                header h1 {
+                    font-size: 2rem;
+                    /*larger for desktops*/
+                }
+
+                main {
+                    max-width: 1200px;
+                    margin: 0 auto;
+                }
+
+                .card-img-top {
+                    height: 400px;
+                }
+
+                .card-title {
+                    font-size: 1.5rem;
+                }
+
+                .card-text {
+                    font-size: 1rem;
+                }

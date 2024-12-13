@@ -36,171 +36,194 @@
 
 <body>
     <!--bootstrap nav bar used-->
-            <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #CBA328;">
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #CBA328;">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Carrie Jones</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-<div class="container-fluid">
-    <a class="navbar-brand" href="#">Carrie Jones</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-<span class="navbar-toggler-icon"></span>
-</button>
-<div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
-        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-    </ul>
-</div>
-</div>
-</nav>
     <!-- Hero section contain -->
-     <section id="hero" class="py-5 text-center" style="background-image: url(assets/images/Favicon/IMAGES/pexels-freestockpro-12955808.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh; margin: 0;">
-        <div class="overlay" style="background-color: rgba(0, 0, 0, 0.5); height: 100%; width: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
-        <h1 class="display-4" style="color: #FFFFFF;">Welcome to Carrie Jones' Portfolio</h1>
-        <p class="lead">Writer | Playwright | Drama Teacher</p>
+    <section id="hero" class="d-flex justify-content-center align-items-center text-center"
+        style="background-image: url(assets/images/Favicon/IMAGES/pexels-freestockpro-12955808.jpg); background-size: cover; background-position: center; background-repeat: no-repeat; height: 100vh; margin: 0;">
+    
+
+    <div class="overlay" style="position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5); z-index: 1;">
+    </div>
+    <div style="position: relative; z-index: 2;">
+        <h1 class="Display-2 fw-bold mt-4" style="font-size: 4rem;" style="color: #CBA328">Welcome to Carrie Jones</h1>
+        <p class=" lead fs-4">Writer | Playwright | Drama Teacher</p>
         <a href="#portfolio" class="btn btn-primary">Explore My Work</a>
     </div>
-     </section>
-     
-     <!--bio section-->
-     <section id="bio"class="py-5">
+    </section>
+
+    <!--bio section-->
+    <section id="bio" class="py-5">
         <div class="container">
             <div class="row align-items-center">
                 <!--image column-->
                 <div class="col-md-4 col-lg-3 text-center">
-                    <img src="assets/images/Favicon/IMAGES/carrie jones.webp" alt="carrie Jones" class="img-fluid rounded">
-                    </div>
-                    <!--colum textabout me-->
-            <div class="col-md-8 col-lg-9">
-     <h2 class="h3">About Me</h2>
-          <p>
-        Hi, I’m Carrie Jones, a passionate writer, playwright, and drama teacher with over a decade of experience in creative storytelling and education. 
-    </p>
-    <p>
-        My work ranges from award-winning plays to innovative workshops that inspire creativity and confidence in aspiring writers and performers. I believe in the transformative power of storytelling to connect, educate, and inspire.
-    </p>
-    <p>
-        Whether on stage or in the classroom, I am dedicated to fostering an appreciation for the arts and helping individuals discover their unique voices.
-    </p>
-         </div>
+                    <img src="assets/images/Favicon/IMAGES/carrie jones.webp" alt="carrie Jones"
+                        class="img-fluid rounded">
+                </div>
+                <!--colum textabout me-->
+                <div class="col-md-8 col-lg-9">
+                    <h2 class=>About Me</h2>
+                    <p>
+                        Hi, I’m Carrie Jones, a passionate writer, playwright, and drama teacher with over a decade of
+                        experience in creative storytelling and education.
+                    </p>
+                    <p>
+                        My work ranges from award-winning plays to innovative workshops that inspire creativity and
+                        confidence in aspiring writers and performers. I believe in the transformative power of
+                        storytelling to connect, educate, and inspire.
+                    </p>
+                    <p>
+                        Whether on stage or in the classroom, I am dedicated to fostering an appreciation for the arts
+                        and helping individuals discover their unique voices.
+                    </p>
+                </div>
     </section>
-    
-<!--portfolio section-->
-<section id="portfolio" class="py-5 bg light">
-    <div class="container">
-        <h2 class="text-center mb-4">Portfolio</h2>
 
-        <!--rows for plays-->
-      <div class="row">
-        <div class="col-md-4 col-lg-4 mb-4">
-            <div class="card">
-            <img src="assets/images/Favicon/IMAGES/pexels-gomez-daniel-290429793-13466050.jpg" class="card-img-top"alt="Play 1 -man and woman on stage play in deep conversation">
-            <div class="card-body">
-                <h5 class="class-title">Echoes of Time</h5>
-                <p class="card-text">A powerful narrative exploring complex emotions and relationships.</p>
-            </div>
-            </div>
-            </div>
-
-        
-            <div class="col-md-4 col-lg-4 mb-4">
-                <div class="card">
-                <img src="assets/images/Favicon/IMAGES/play.webp" class="card-img-top" alt="Play 2 woman and man at a lampost in discussion">
-                <div class="card-body">
-                    <h5 class="class-title">Ink and Shadows</h5>
-                    <p class="card-text">An award-winning drama that captivates audiences with a heartfelt storyline</p>
-                </div>
-                </div>
-                </div>
-
-             
+    <!--portfolio section-->
+    <section id="portfolio" class="py-5 bg light">
+        <div class="container">
+            <h2 class="text-center;" style="color: #CBA328;" position:center;>Welcome to Carrie Jones' Portfolio</h2>
+            <p class="lead" style="color:#CBA328;">Discover my works in writing, drama, and education.</p>
+            <!--rows for plays-->
+            <div class="row">
                 <div class="col-md-4 col-lg-4 mb-4">
                     <div class="card">
-                    <img src="assets/images/Favicon/IMAGES/books.webp" class="card-img-top" alt="Screen play - books">
-                    <div class="card-body">
-                        <h5 class="class-title">The Final Rehearsal</h5>
-                        <p class="card-text">A gripping journey into the intricate world of stage preparations, where passion, perfection, and raw talent collide to bring a masterpiece to life</p>
-                    </div>
-                    </div>
-                    </div>
-
-                    <div class="row mt-4">
-                    <div class="col-md 12 text center">
-                    <h3>Drama Classes</h3>
-                        <div class="card mt-3">
-                        <img src="assets/images/Favicon/IMAGES/pexels-vika-glitter-392079-1620760.jpg" class="card-img-top" alt="Drama Class">
+                        <img src="assets/images/Favicon/IMAGES/pexels-gomez-daniel-290429793-13466050.jpg"
+                            class="card-img-top" alt="Play 1 -man and woman on stage play in deep conversation">
                         <div class="card-body">
-                            <h5 class="class-title">Engaging Children in Drama Class</h5>
-                            <p class="card-text">Our drama classes focus on building confidence, enhancing creativity, and unlocking inner talent. 
-                                Join workshops designed to foster collaboration, self-expression, and teamwork among performers of all ages.</p>
+                            <h5 class="class-title">Echoes of Time</h5>
+                            <p class="card-text">A powerful narrative exploring complex emotions and relationships.</p>
                         </div>
-                        <div>
-                            </div>    
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="assets/images/Favicon/IMAGES/play.webp" class="card-img-top"
+                            alt="Play 2 woman and man at a lampost in discussion">
+                        <div class="card-body">
+                            <h5 class="class-title">Ink and Shadows</h5>
+                            <p class="card-text">An award-winning drama that captivates audiences with a heartfelt
+                                storyline</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="assets/images/Favicon/IMAGES/books.webp" class="card-img-top"
+                            alt="Screen play - books">
+                        <div class="card-body">
+                            <h5 class="class-title">The Final Rehearsal</h5>
+                            <p class="card-text">A gripping journey into the intricate world of stage preparations,
+                                where passion, perfection, and raw talent collide to bring a masterpiece to life</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row mt-4">
+                    <div class="col-md 12 text center">
+                        <h3 style="color: #CBA328;" class="text-center">Drama Classes</h3>
+                        <div class="card mt-3">
+                            <img src="assets/images/Favicon/IMAGES/pexels-vika-glitter-392079-1620760.jpg"
+                                class="card-img-top" alt="Drama Class">
+                            <div class="card-body">
+                                <h5 class="class-title">Engaging Children in Drama Class</h5>
+                                <p class="card-text">Our drama classes focus on building confidence, enhancing
+                                    creativity, and unlocking inner talent.
+                                    Join workshops designed to foster collaboration, self-expression, and teamwork among
+                                    performers of all ages.</p>
+                            </div>
+                            <div>
+                            </div>
+                        </div>
+                    </div>
+
+    </section>
+
+    <!--contact sections-->
+
+    <section id="contact" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+
+            <div class="row justify-content-center">
+                <div class="col-md8">
+                    <!--bootstrap form-->
+                    <form action="" method="POST">
+                        <!--Name fieled-->
+
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name"
+                                required>
+                            <!--Email Address Field-->
+                            <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1"
+                                    placeholder="name@example.com">
+                            </div>
+                            <!--text message area-->
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
+                            <!-- Submit Button -->
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
         </div>
-    </div>
-   
-</section>
-
-<!--contact sections-->
-
-<section id="contact" class="py-5 bg-light">
- <div class="container">
- <h2 class="text-center mb-4">Contact Me</h2>
-
- <div class="row justify-content-center">
-    <div class="col-md8">
-        <!--bootstrap form-->
-        <form action="" method="POST">
-        <!--Name fieled-->
-
-        <div class="mb-3">
-            <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
-    <!--Email Address Field-->
-        <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-          </div>
-          <!--text message area-->
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
-    <!-- Submit Button -->
-    <div class="d-grid">
-        <button type="submit" class="btn btn-primary">Send Message</button>
-    </form>
-</div>
-</div>
-    </div>
- </div>
-</section>
+        </div>
+    </section>
 
 
 
     <!-- Footer -->
 
-<footer class="text-center py-4 bg-light">
-    <div class="container">
-        <p>Connect with me on social media:</p>
-        <div class="social-icons">
-            <a href="https://www.linkedin.com" target="_blank" class="mx-2 text-dark" title="LinkedIn">
-                <i class="fab fa-linkedin fa-2x"></i>
-            </a>
-            <a href="https://www.facebook.com" target="_blank" class="mx-2 text-dark" title="Facebook">
-                <i class="fab fa-facebook fa-2x"></i>
-            </a>
-            <a href="https://www.instagram.com" target="_blank" class="mx-2 text-dark" title="Instagram">
-                <i class="fab fa-instagram fa-2x"></i>
-            </a>
+    <footer class="text-center py-4 bg-light">
+        <div class="container">
+            <p>Connect with me on social media:</p>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com" target="_blank" class="mx-2 text-dark" title="LinkedIn">
+                    <i class="fab fa-linkedin fa-2x"></i>
+                </a>
+                <a href="https://www.facebook.com" target="_blank" class="mx-2 text-dark" title="Facebook">
+                    <i class="fab fa-facebook fa-2x"></i>
+                </a>
+                <a href="https://www.instagram.com" target="_blank" class="mx-2 text-dark" title="Instagram">
+                    <i class="fab fa-instagram fa-2x"></i>
+                </a>
+            </div>
+            <p>&copy; 2023 Carrie Jones. All rights reserved.</p>
         </div>
-        <p>&copy; 2023 Carrie Jones. All rights reserved.</p>
-    </div>
     </footer>
 
-   
 
-<!--bootstrap JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    <!--bootstrap JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>
