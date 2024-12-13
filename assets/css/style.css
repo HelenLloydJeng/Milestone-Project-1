@@ -107,8 +107,8 @@
     }
 
     .btn:hover {
-        background-color: #a98624;
-        border-color: #a98624;
+        background-color: #a29e92;
+        border-color: #a29e92;
     }
 
     .navbar {
@@ -116,12 +116,17 @@
     }
 
     .navbar .nav-link {
-        color: #FFFFF0 !important;
+        color: #5C5346 !important;
         /* overide bootstrap color Replace my text color */
-    }
+        transition: color 0.3s ease; /* Smooth transition */
+}
 
-    .navbar-brand {
-        color: #FFFFF0 !important;
+.navbar .nav-link:hover {
+    color: #f2f0eb !important;/* color on hover */
+}
+
+    .navbar .navbar-brand {
+        color: #5C5346  !important;
         /* override bootstrap colourcolor */
     }
     
