@@ -23,14 +23,7 @@
         font-family: "Playfair Display", "serif";
     }
 
-    img {
-        width: 300px; /* Default width */
-        height: auto; /* Maintain aspect ratio */
-        max-width: 100%; /* Ensure the image does not overflow its container */
-    }
-
-    /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
-
+     /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
     /*header*/
     header {
         background-color: #CBA328;
@@ -42,6 +35,37 @@
         align-items: center;
 
     }
+
+    .hero-bg {
+
+        background-image: url(../images/Favicon/IMAGES/pexels-freestockpro-12955808.jpg);
+      
+        background-size: cover;
+      
+        background-position: center;
+      
+        background-repeat: no-repeat;
+      
+        height: 100vh;
+      
+        margin: 0;
+      
+      }
+
+      .header-color {
+
+        color: #cba328;
+      
+      }
+      
+      
+      
+      .nav-bg {
+      
+        background-color: #cba328;
+      
+      }
+      
 
     header a {
         text-decoration: none;
@@ -179,6 +203,7 @@
     .card {
         transition: transforn 0.3s;
         border: #CBA328;
+    }
         card {
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             overflow: hidden;
@@ -211,6 +236,11 @@
         color: #555;
         line-height: 1.5;
     }
+    .drama-header {
+
+        color: #cba328;
+      
+      }
 
     /*Footer*/
 
@@ -251,18 +281,13 @@
         @media (min-width: 1024px) {
             header {
                 padding: 30px;
+            }
 
                 header h1 {
                     font-size: 2rem;
+                      /*larger for desktops*/
                 }
-
-                    img {
-                        width: 500px; /* Larger size for bigger screens */
-                        height: auto; /* Maintain aspect ratio */
-                    }
-
-
-                main {
+             main {
                     max-width: 1200px;
                     margin: 0 auto;
                 }
@@ -277,9 +302,4 @@
 
                 .card-text {
                     font-size: 1rem;
-                }
-
-                img {
-                    width: 800px;
-                    height: auto;
                 }
