@@ -1,3 +1,61 @@
+# Design Choices for Carrie Jones' Portfolio Website  
+
+## Purpose and Audience  
+The Carrie Jones Portfolio website is designed to showcase the artistic talents and professional portfolio of an writer  and drama coach. The site appeals to theatre enthusiasts, potential collaborators, and students interested in drama classes.
+
+## Color Palette  
+The chosen colour palette reflects the elegance and creativity of Carrie Jones' brand:  
+- **#FFFFF0 (Ivory)**: Used as the primary background colour to ensure a clean and sophisticated look.  
+- **#CBA328 (Gold)**: Highlights key elements like headings, buttons, and hover states, symbolizing creativity and prestige.  
+- **#5C5346 (Brown)**: Adds depth and warmth, prominently featured in the footer, navbar branding, and certain text elements.  
+
+This combination balances sophistication with readability, creating a professional and engaging atmosphere.  
+
+## Typography  
+Typography choices reflect a balance between readability and elegance:  
+- **Playfair Display**: A serif font used for headings, delivering a bold and artistic impression that aligns with the theatrical theme.  
+- **Lora**: A serif font used for body text to maintain readability and classic styling.  
+
+Both fonts are sourced from Google Fonts, ensuring accessibility and performance.  
+
+## Layout and Responsiveness  
+The layout is designed with a **mobile-first approach**, ensuring accessibility across all devices:  
+- **Hero Section**: A prominent visual with a full-screen background image and bold introductory text.  
+- **About Section**: Cleanly organised to present Carrie Jones' biography and achievements.  
+- **Portfolio Section**: Card-style layout with responsive images showcasing projects and performances.  
+- **Footer**: Compact, informative, and visually cohesive, providing essential links and contact information.  
+
+Media queries and flexbox are used to adapt the layout for tablets, desktops, and larger screens seamlessly.
+
+## Images  
+Images are optimised and styled to enhance the visual appeal and performance:  
+- **Responsive Design**: All images use `width: 100%` and `height: auto` to maintain aspect ratios and fit containers across screen sizes.  
+- **Performance Enhancements**: Explicit `width` and `height` attributes minimise layout shifts, improving the user experience.  
+- **Borders and Spacing**: Subtle borders and spacing around images enhance visual separation and focus.
+
+## Interactivity  
+- **Navbar**: Includes smooth hover effects for links and highlights the active page with a distinct style.  
+- **Buttons**: Styled with a gold background and hover effects for user engagement.  
+- **Hover Effects**: Enhance the interactivity of images and cards in the portfolio section, drawing attention to key content.  
+
+## Performance and Accessibility  
+### Performance:  
+- **Optimised Assets**: Images are compressed and appropriately scaled to ensure fast loading times.  
+- **CSS Styling**: Organised CSS enhances maintainability and reduces unnecessary rendering overhead.  
+
+### Accessibility:  
+- **High Contrast**: Text and background colours ensure readability for users with visual impairments.  
+- **Semantic HTML**: Tags such as `<header>`, `<main>`, and `<footer>` improve accessibility and SEO.  
+- **Alt Text**: Included for all images to provide context for screen readers and enhance searchability.  
+
+## Design Principles  
+- **Elegance and Professionalism**: The design reflects Carrie Jones' theatrical artistry while maintaining a polished, professional appearance.  
+- **Consistency**: The colour scheme, typography, and layout are consistent across all pages for a cohesive user experience.  
+- **Visual Hierarchy**: Elements like the Hero section and Portfolio cards are strategically designed to draw attention to key content.  
+
+This thoughtfully crafted design ensures that the website not only showcases Carrie Jones work effectively but also engages and informs its audience.
+
+
 ## **Project Objectives**
 ### **Purpose**
 The primary goal of this portfolio website is to:
