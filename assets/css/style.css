@@ -248,14 +248,33 @@
       }
 
     /*Footer*/
-
-    footer {
-        background-color: #5C5346 !important;
-        color: #FFFFF0 !important;
-        /*to read text against brown background*/
-        text-align: center;
-        padding: 36px;
+    footer#main-footer {
+        background-color: #5C5346 !important; /* Brown from your palette */
+        color: #FFFFF0 !important; /* Ivory text for readability */
+        padding: 20px 0 !important; /* Adjust padding for spacing */
+        text-align: center !important;
     }
+    
+    #main-footer .social-icons a {
+        color: #CBA328 !important; /* Gold for the social icons */
+        margin: 0 10px;
+        transition: color 0.3s ease-in-out; /* Smooth hover effect */
+    }
+    
+    #main-footer .social-icons a:hover {
+        color: #a98624; /* Darker gold for hover effect */
+    }
+    
+    #main-footer p {
+        margin: 10px 0; /* Space between paragraphs */
+        font-size: 0.9rem; /* Slightly smaller text for footer */
+    }
+    
+    #main-footer .social-icons {
+        margin: 15px 0; /* Space above and below social icons */
+    }
+
+    
 
     /*for larger screens using media queries*/
     /*for tablets min width 768px) */
