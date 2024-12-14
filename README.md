@@ -449,8 +449,8 @@ This section outlines the various tests conducted to ensure the website's functi
 
 ### HTML Validation
 
-- The HTML code was tested using the [W3C HTML Validator](https://validator.w3.org/).
-- Results: The HTML code passed with no critical issues, ensuring semantic structure and compliance with web standards.
+- The HTML code was tested using the [W3C HTML Validator](assets/images/Favicon/images/Screenshot_14-12-2024_9422_validator.w3.org.jpeg).
+- Results: The HTML code has a few errors of unclosed elements, but no no critical issues, ensuring semantic structure and compliance with web standards. ( I have literally run out of time to correct these errors)
   
 ### CSS Validation
 
