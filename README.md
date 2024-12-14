@@ -161,10 +161,10 @@ The primary goal of this portfolio website is to:
 3. Navigation to the portfolio should be fast and intuitive.
 
 ### 📝 **Task List**
-- [ ] Create a dedicated Portfolio Page.
-- [ ] Organise projects into categories (Plays, Writing, Collaborations).
-- [ ] Include high-quality images and project descriptions.
-- [ ] Optimise load times for multimedia content.
+- [x ] Create a dedicated Portfolio Page.
+- [x ] Organise projects into categories (Plays, Writing, Collaborations).
+- [ x] Include high-quality images and project descriptions.
+- [ x] Optimise load times for multimedia content.
 
 ---
 ## **User Story 2: Drama Enthusiasts**
@@ -180,8 +180,8 @@ The primary goal of this portfolio website is to:
 2. Each project should have a description of the plays
 3. Navigation should be easy and visually appealing.
 ### 📝 **Task List**
-- [ ] Create sections for Plays, Writing, and Creative Projects.
-- - [ ] Provide clear and concise descriptions for each project.
+- [ x] Create sections for Plays, Writing, and Creative Projects.
+- - [ x] Provide clear and concise descriptions for each project.
 
 ### **User Story 3 Collaborators (Producers, Actors, Directors)**
 **Objective:** Quickly find contact details and collaborate on creative projects.
@@ -198,9 +198,9 @@ The primary goal of this portfolio website is to:
 3. The contact form should send messages without errors.
 
 ### 📝 **Task List**
-- [ ] Create a **Contact/About Page** with an inquiry form.
-- [ ] Embed social media profiles and links to professional platforms.
-- [ ] Showcase examples of successful collaborations and testimonials.
+- [ x] Create a **Contact/About Page** with an inquiry form.
+- [ x] Embed social media profiles and links to professional platforms.
+- [x ] Showcase examples of successful collaborations and testimonials.
 
 ---
 ### **Internal User (Carrie Jones)**
@@ -220,9 +220,9 @@ The primary goal of this portfolio website is to:
 2. Key achievements should be presented in a chronological or thematic order.
 
 ### 📝 **Task List**
-- [ ] Create a **About Page**.
-- [ ] Include photos, videos, and creative project milestones.
-- [ ] Organise content in an intuitive and visually appealing format.
+- [ x] Create a **About Page**.
+- [ x] Include photos, videos, and creative project milestones.
+- [x ] Organise content in an intuitive and visually appealing format.
 
 ## **User Story 5: Centralise Portfolio Content**
 **Objective:** Showcase her portfolio of plays, writing, and teaching initiatives in a clean and accessible format.
@@ -240,9 +240,9 @@ The primary goal of this portfolio website is to:
 2. Each project should have concise summaries, images, and descriptions.
 
 ### 📝 **Task List**
-- [ ] Design and implement sections for Plays, Writing, and Teaching Projects.
-- [ ] Use multimedia elements (images, videos) to enhance each project entry.
-- [ ] Create interactive elements to improve navigation and user experience.
+- [x ] Design and implement sections for Plays, Writing, and Teaching Projects.
+- [ x] Use multimedia elements (images, videos) to enhance each project entry.
+- [ x] Create interactive elements to improve navigation and user experience.
 
 ## **User Story 6: Promote Workshops and Events**
 **Objective:** Share information about workshops and creative events with a wider audience.
@@ -256,9 +256,9 @@ The primary goal of this portfolio website is to:
 1. The Events Page should contain accurate details about workshops and creative initiatives.
 2. A booking system or registration link should be functional and accessible.
 ### 📝 **Task List**
-- [ ] Create an **Events Page** to list upcoming workshops and classes.
-- [ ] Provide booking details and relevant event information.
-- [ ] Include multimedia content showcasing past workshops and classes.
+- [ x] Create an **Events Page** to list upcoming workshops and classes.
+- [x ] Provide booking details and relevant event information.
+- [ x] Include multimedia content showcasing past workshops and classes.
 
 ## **User Story 7  Maintain a User-Friendly Interface**
 **Objective:** Ensure site visitors can easily navigate and interact with the website.
@@ -272,9 +272,9 @@ The primary goal of this portfolio website is to:
 1. The navigation should be consistent across all sections of the website.
 2. Transitions and animations should be seamless and not hinder performance.
 ### 📝 **Task List**
-- [ ] Implement a **Fixed, Responsive Navigation Bar**.
-- [ ] Optimise animations and transitions to ensure a smooth interface experience.
-- [ ] Test all interactive elements across different devices (desktop, tablet, mobile).-
+- [ x] Implement a **Fixed, Responsive Navigation Bar**.
+- [ x] Optimise animations and transitions to ensure a smooth interface experience.
+- [ ]x Test all interactive elements across different devices (desktop, tablet, mobile).-
 
 
 ## **Features**
@@ -353,3 +353,111 @@ I deployed the page on GitHub pages via the following procedure: -
 4. A message will be displayed to indicate a successful deployment to GitHub pages and provide the live link.
 
 You  can find the live site via the following URL [Helen Lloyds MileStone Project 1 Live Webpage] (https://helenlloydjeng.github.io/Milestone-Project-1/)
+
+
+## Testing
+
+This section outlines the various tests conducted to ensure the website's functionality, performance, and responsiveness.
+### HTML Validation
+- The HTML code was tested using the [W3C HTML Validator](https://validator.w3.org/).
+- Results: The HTML code passed with no critical issues, ensuring semantic structure and compliance with web standards.
+  
+### CSS Validation
+- The CSS code was validated using the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/validator).
+- Results: The CSS passed validation with no significant errors or warnings.
+
+### Lighthouse Performance Testing
+Performance, accessibility, best practices, and SEO were tested using Google Chrome's Lighthouse tool.
+
+#### Lighthouse Report - Mobile
+![Lighthouse Mobile Results](placeholder-for-mobile-screenshot.png)
+
+#### Lighthouse Report - Desktop
+![Lighthouse Desktop Results](placeholder-for-desktop-screenshot.png)
+
+Results:
+- Performance: 
+- Accessibility: 
+- Best Practices: 
+- SEO: 
+
+### Responsiveness Testing
+The website was manually tested across various devices and screen sizes to ensure responsiveness:
+- **Devices Tested:**
+  - iPhone 12 (mobile)
+  - iPad Pro (tablet)
+  - HP (desktop)
+- **Browsers Tested:**
+  - Google Chrome
+  - Mozilla Firefox
+  - Safari
+
+### Debugging Tools
+- [Diffchecker](https://www.diffchecker.com): Used to compare code versions to resolve issues.
+- **Google Chrome DevTools:** Utilized for live debugging and inspecting responsiveness.
+
+### User Stories Testing
+All user stories defined in the project scope were manually tested. The results of these tests ensured that the site met the requirements and provided a smooth user experience.
+
+
+
+## Credits
+This section acknowledges the resources, tools, and inspiration used during the development of the website.
+### Content
+- **Text Content:**  
+  All text content was creative writing by me and inspired by my friend and playwright author and drama teacher Claire Erasmus  to reflect the goals and message of the site.
+
+### Media
+- **Images:**  
+  - Hero and section images were sourced from [Pexels](https://www.pexels.com) and are free to use under the Pexels license.  
+  - Placeholder images were used during development and testing phases.
+
+### Development Environment
+- The project was developed using the [Code Institute IDE](https://codeinstitute.net/), which provided a stable and accessible environment for coding.
+
+### Design and Development
+- **Frameworks and Libraries:**  
+  - [Bootstrap](https://getbootstrap.com): Used for the grid system, responsive utilities, and components like the navbar and buttons.  
+  - [Font Awesome](https://fontawesome.com): For the social media icons in the footer.  
+- **Typography:**  
+  - Fonts were sourced from [Google Fonts](https://fonts.google.com):  
+    - **Playfair Display**: For headings.  
+    - **Lora**: For body text.  
+- **CSS Enhancements:**  
+  - Custom CSS was written to modify Bootstrap defaults and add unique styling to match the website’s theme.
+
+### Learning and Reference Resources
+- [W3Schools](https://www.w3schools.com): Consulted for guidance on HTML and CSS concepts.  
+- [MDN Web Docs](https://developer.mozilla.org): Used for reference on advanced HTML and CSS practices.  
+- [Bootstrap Documentation](https://getbootstrap.com): For styling and responsive design techniques.  
+- [Cheat Sheets](https://flexbox.mddocs.io/): Various online cheat sheets and resources were consulted for quick references on Flexbox and Grid systems.
+
+### Code Validation Tools
+- [W3C HTML Validator](https://validator.w3.org): Used to test and validate the HTML structure.  
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator): Used to validate CSS code and ensure compliance with best practices.
+
+### Testing Tools
+- [Diffchecker](https://www.diffchecker.com): Used for comparing code versions during debugging and testing.  
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/): For testing and debugging across multiple screen sizes.
+
+### Templates and Tutorials
+- The **social media section** was adapted from the **Code Institute Online Tutorials** as part of the learning curriculum.
+
+### Wireframing
+ The wireframes for this project were hand-drawn to outline the layout and structure for the website across three main screen sizes: mobile, tablet, and desktop. The hand-drawn designs were influenced by lessons learned in the Code Institute tutorials and guidance from other web wireframe planning tools. The process of creating wireframes included: - Sketching the general layout for responsive design. - Ensuring that all key sections (header, hero, features, portfolio, and footer) were adaptable to different screen sizes. - Planning navigation and content flow to enhance user experience. While these wireframes were not created using professional wireframing tools, tools like [Balsamiq](https://balsamiq.com) and lessons from the Code Institute curriculum provided inspiration and structure for their design.
+### Guidance and Mentorship
+- Special thanks to **Richard Wells**, my Code Institute mentor, for providing guidance, feedback, and support throughout the project.
+
+### Hosting Tools The project was hosted using 
+**GitHub.com**- [GitHub Pages](https://pages.github.com): For hosting the website.  
+**Code Institute IDE** were utilised extensively, ensuring a smooth development and deployment process. This IDE is specifically tailored for students and includes pre-configured setups for Git, Python, and other web development tools.
+
+### Acknowledgements
+- Thanks to the **Code Institute** for providing comprehensive learning resources and templates to support project development.  
+- Online communities like [Stack Overflow](https://stackoverflow.com) for solutions and insights during development.
+
+### Inspiration
+- This website was inspired by my friend and children’s drama teacher, Claire Erasmus, a writer and up and coming playwright living locally in my community.  It was crafted with the intent to showcase her potential portfolio of theatrical plays and drama classes.  
+- Design inspiration for layout and colour palette was influenced by minimalistic and user-friendly modern web designs.
+```
+
