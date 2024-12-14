@@ -1,4 +1,3 @@
-# Design Choices for Carrie Jones' Portfolio Website  
 
 ## Purpose and Audience  
 The Carrie Jones Portfolio website is designed to showcase the artistic talents and professional portfolio of an writer  and drama coach. The site appeals to theatre enthusiasts, potential collaborators, and students interested in drama classes.
@@ -55,6 +54,57 @@ Images are optimised and styled to enhance the visual appeal and performance:
 
 This thoughtfully crafted design ensures that the website not only showcases Carrie Jones work effectively but also engages and informs its audience.
 
+## Features
+
+### 1. Hero Section
+- **Description**: The hero section prominently displays the website's title and tagline, designed to grab attention with a visually appealing background image.
+- **Key Design Elements**:
+  - Full-screen background image with a focus on responsiveness.
+  - A clear, bold headline styled with the site's signature typography.
+- **Screenshot**:  
+  ![Hero Section](https://via.placeholder.com/800x400?text=Hero+Section+Screenshot)
+
+---
+
+### 2. Navigation Bar
+- **Description**: The navigation bar provides users with easy access to the site's primary sections, ensuring smooth navigation across the website.
+- **Key Design Elements**:
+  - Sticky design for consistent visibility.
+  - Links styled with hover effects and custom colors.
+  - Fully responsive for mobile and desktop screens.
+- **Screenshot**:  
+  ![Navigation Bar](  https://8000-helenlloydj-milestonepr-go0dsd6u91d.ws.codeinstitute-ide.net/#home      )
+
+---
+
+### 3. About Me Section
+- **Description**: This section introduces the site's subject with a biography, a photo, and a brief overview of their background.
+- **Key Design Elements**:
+  - Balanced text and image layout.
+  - Centered headings styled with a serif font to maintain elegance.
+- **Screenshot**:  
+  ![About Me Section](https://via.placeholder.com/800x400?text=About+Me+Section+Screenshot)
+
+---
+
+### 4. Portfolio Section
+- **Description**: Displays a series of cards highlighting past projects or plays, each with a title, description, and an image.
+- **Key Design Elements**:
+  - Interactive hover effects on cards.
+  - Consistent layout with responsive resizing for smaller screens.
+- **Screenshot**:  
+  ![Portfolio Section](https://via.placeholder.com/800x400?text=Portfolio+Section+Screenshot)
+
+---
+
+### 5. Footer
+- **Description**: The footer includes social media links and copyright information, providing a clean and polished ending to the site.
+- **Key Design Elements**:
+  - Social media icons styled with hover effects.
+  - A background color that contrasts with the main body for better visibility.
+- **Screenshot**:  
+  ![Footer](https://via.placeholder.com/800x400?text=Footer+Screenshot)
+# Design Choices for Carrie Jones' Portfolio Website  
 
 ## **Project Objectives**
 ### **Purpose**
@@ -234,12 +284,42 @@ MVP
 - **Structured Navigation**: A clear and intuitive navigation bar guides users to all major sections of the site.
 - **Portfolio Showcase**: Features Carrie’s works, including summaries and images of her plays.
 - **Contact Section**: Provides a contact form, email, and social media links for easy connection.
-- **Biography**: A dedicated section presenting Carrie’s background, skills, and teaching philosophy.
-- **Testimonials**: Optional Displays feedback from students, collaborators, and industry professionals.
--** Phase 2
-  **Events Section** (Optional): Highlights upcoming workshops, performances, or speaking engagements.
-**Testimonials**: Optional Displays feedback from students, collaborators, and industry professionals.
--
+- **Biography**: A dedicated about section presenting Carrie’s background, skills, and teaching philosophy.
+
+### Mobile Wireframe
+The mobile design emphasises simplicity and usability with a vertical scrolling layout. Key elements include:
+- A sticky header for navigation.
+- Compact sections with optimised text sizes for smaller screens.
+- Responsive images and buttons.
+
+**Wireframe Screenshot:**
+![Mobile Wireframe](https://via.placeholder.com/400x800?text=Mobile+Wireframe)
+
+### Tablet Wireframe
+The tablet design builds on the mobile layout, utilising more screen space for better readability. Key elements include:
+- A slightly wider header with navigation links spaced out.
+- Increased padding around sections for a cleaner layout.
+- Multi-column content layout where applicable.
+
+**Wireframe Screenshot:**
+![Tablet Wireframe](https://via.placeholder.com/800x1000?text=Tablet+Wireframe)
+
+### Desktop Wireframe
+The desktop design uses the full width of the screen to provide an immersive experience. Key features include:
+- A horizontal navigation bar with hover effects.
+- Full-width hero images and multi-column text layouts.
+- Additional spacing for visual balance.
+
+**Wireframe Screenshot:**
+![Desktop Wireframe](https://via.placeholder.com/1200x800?text=Desktop+Wireframe)
+
+### Responsive Design Overview
+The website adapts seamlessly across devices using media queries:
+- **Mobile (max-width: 767px):** Single-column layout with simplified navigation.
+- **Tablet (768px - 1023px):** Two-column layouts where appropriate, with larger buttons and images.
+- **Desktop (min-width: 1024px):** Multi-column layouts, expanded navigation, and increased visual spacing.
+
+
 
 **Main Technologies**
 

@@ -33,6 +33,7 @@
         /*space between logo and burger*/
         display: flex;
         align-items: center;
+            
 
     }
 
@@ -63,6 +64,7 @@
       .nav-bg {
       
         background-color: #cba328;
+        
       
       }
       
@@ -71,6 +73,7 @@
         text-decoration: none;
         /*remove underline*/
         color: inherit;
+        
     }
 
     /*optimized for mobile*/
@@ -113,6 +116,9 @@
 
     .navbar {
         background-color: #CBA328 !important;
+        position: sticky !important;
+            top: 0 !important;
+            z-index: 1000 !important; /* Ensures it stays above other content */
     }
 
     .navbar .nav-link {
