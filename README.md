@@ -375,7 +375,7 @@ The mobile design emphasises simplicity and usability with a vertical scrolling 
 - Responsive images and buttons.
 
 **Wireframe Screenshot:**
-![Mobile Wireframe](https://via.placeholder.com/400x800?text=Mobile+Wireframe)
+![Mobile Wireframe](assets/images/Favicon/images/mobile wireframe.jpg)
 
 ### Tablet Wireframe
 
@@ -386,7 +386,7 @@ The tablet design builds on the mobile layout, utilising more screen space for b
 - Multi-column content layout where applicable.
 
 **Wireframe Screenshot:**
-![Tablet Wireframe](https://via.placeholder.com/800x1000?text=Tablet+Wireframe)
+![Tablet Wireframe](assets/images/Favicon/images/tablet wireframe.jpg)
 
 ### Desktop Wireframe
 
@@ -397,7 +397,7 @@ The desktop design uses the full width of the screen to provide an immersive exp
 - Additional spacing for visual balance.
 
 **Wireframe Screenshot:**
-![Desktop Wireframe](https://via.placeholder.com/1200x800?text=Desktop+Wireframe)
+![Desktop Wireframe](assets/images/Favicon/Favicon/desktop wireframe.jpg)
 
 ### Responsive Design Overview
 
