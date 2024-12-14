@@ -3,6 +3,8 @@
 
 The Carrie Jones Portfolio website is designed to showcase the artistic talents and professional portfolio of an writer  and drama coach. The site appeals to theatre enthusiasts, potential collaborators, and students interested in drama classes.
 
+##webpages across all devices (![ alt carrie Jones Webpages](<assets/images/Favicon/images/across all devices.png>))
+
 ## Color Palette  
 
 The chosen colour palette reflects the elegance and creativity of Carrie Jones' brand:  
