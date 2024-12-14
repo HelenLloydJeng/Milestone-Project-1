@@ -76,10 +76,6 @@ This thoughtfully crafted design ensures that the website not only showcases Car
 - **Key Design Elements**:
   - Full-screen background image with a focus on responsiveness.
   - A clear, bold headline styled with the site's signature typography.
-- **Screenshot**:  
-  ![Hero Section](https://via.placeholder.com/800x400?text=Hero+Section+Screenshot)
-
----
 
 ### 2. Navigation Bar
 
@@ -88,10 +84,6 @@ This thoughtfully crafted design ensures that the website not only showcases Car
   - Sticky design for consistent visibility.
   - Links styled with hover effects and custom colors.
   - Fully responsive for mobile and desktop screens.
-- **Screenshot**:  
-  ![Navigation Bar](  https://8000-helenlloydj-milestonepr-go0dsd6u91d.ws.codeinstitute-ide.net/#home      )
-
----
 
 ### 3. About Me Section
 
@@ -100,20 +92,13 @@ This thoughtfully crafted design ensures that the website not only showcases Car
   - Balanced text and image layout.
   - Centered headings styled with a serif font to maintain elegance.
 - **Screenshot**:  
-  ![About Me Section](https://via.placeholder.com/800x400?text=About+Me+Section+Screenshot)
-
----
-
+  
 ### 4. Portfolio Section
 
 - **Description**: Displays a series of cards highlighting past projects or plays, each with a title, description, and an image.
 - **Key Design Elements**:
   - Interactive hover effects on cards.
-  - Consistent layout with responsive resizing for smaller screens.
-- **Screenshot**:  
-  ![Portfolio Section](https://via.placeholder.com/800x400?text=Portfolio+Section+Screenshot)
-
----
+  - Consistent layout with responsive resizing for smaller screens.---
 
 ### 5. Footer
 
@@ -122,9 +107,9 @@ This thoughtfully crafted design ensures that the website not only showcases Car
   - Social media icons styled with hover effects.
   - A background color that contrasts with the main body for better visibility.
 - **Screenshot**:  
-  ![Footer](https://via.placeholder.com/800x400?text=Footer+Screenshot)
+  ![site]()
 
-# Design Choices for Carrie Jones' Portfolio Website  
+# Design ![Choices](<assets/images/Favicon/screenshot about me.jpeg>) for Carrie Jones' Portfolio Website  
 
 ## **Project Objectives**
 
