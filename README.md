@@ -451,7 +451,103 @@ This section outlines the various tests conducted to ensure the website's functi
 
 - The HTML code was tested using the [W3C HTML Validator](assets/images/Favicon/images/Screenshot_14-12-2024_9422_validator.w3.org.jpeg).
 - Results: The HTML code has a few errors of unclosed elements, but no no critical issues, ensuring semantic structure and compliance with web standards. ( I have literally run out of time to correct these errors)
-  
+
+W3C Markup Validation Report & Fixes
+Overview
+This document outlines the errors and warnings identified by the W3C Markup Validation Service in the project's HTML code. It also includes solutions for each issue to ensure compliance with best practices.
+________________________________________
+Validation Errors & Fixes
+1. Trailing Slash on Void Elements
+🔹 Issue:
+"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values."
+🔹 Affected Lines:
+•	Lines 2, 4, 5, 12, 17, 21, 23, 29, 30, 80, 115, 132, 148, 162, 192, 198
+🔹 Cause:
+In HTML5, self-closing void elements (e.g., <meta>, <link>, <img>, <input>) do not require a trailing slash (/).
+🔹 Solution:
+Remove the trailing slash (/) from self-closing elements.
+✅ Fixed Example:
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<img src="assets/images/Favicon/images/carriejones.webp" alt="Carrie Jones">
+________________________________________
+2. Illegal Character in Image Path (Space in Filename)
+🔹 Issue:
+"Bad value assets/images/Favicon/images/carrie jones.webp for attribute src on element img: Illegal character in path segment: space is not allowed."
+🔹 Affected Line:
+•	Line 80
+🔹 Cause:
+The filename carrie jones.webp contains a space, which is not allowed in a URL path.
+🔹 Solution:
+•	Rename the file without spaces, e.g., carrie_jones.webp or carriejones.webp.
+•	Update the src attribute accordingly.
+✅ Fixed Example:
+<img src="assets/images/Favicon/images/carriejones.webp" alt="Carrie Jones">
+________________________________________
+
+3. Backslash Used in Image Path (Incorrect Delimiter)
+🔹 Issue:
+
+"Backslash (\) used as path segment delimiter."
+
+🔹 Affected Line:
+
+Line 80
+🔹 Cause:
+The image path used backslashes (\) as directory separators, which are not valid in HTML. Only forward slashes (/) should be used in HTML and URLs.
+
+🔹 Solution:
+Replace the backslashes with forward slashes.
+
+✅ Fixed Example:
+
+html
+Copy
+Edit
+<img src="assets/images/Favicon/images/carriejones.webp" alt="Carrie Jones">
+
+4. Stray End Tag (</h3>)
+🔹 Issue:
+"Stray end tag h3."
+🔹 Affected Line:
+•	Line 160
+🔹 Cause:
+An extra closing </h3> tag was found without a matching opening <h3>.
+🔹 Solution:
+Check the HTML structure and ensure that every <h3> has a corresponding closing tag.
+✅ Fixed Example:
+<h3>Drama Classes</h3> <!-- Ensure this is properly opened and closed -->
+________________________________________
+5. Unclosed <div> Elements
+🔹 Issue:
+"Unclosed element div."
+🔹 Affected Lines:
+•	Line 104, 112
+🔹 Cause:
+There are <div> tags that were opened but never closed, causing a structural issue.
+🔹 Solution:
+Ensure that every <div> has a corresponding </div>.
+✅ Fixed Example:
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">Content here</div>
+    </div> <!-- Closing div for row -->
+</div> <!-- Closing div for container -->
+________________________________________
+6. End Tag for <section> Found, But Open Elements Exist
+🔹 Issue:
+"End tag section seen, but there were open elements."
+🔹 Affected Line:
+•	Line 176
+🔹 Cause:
+An extra unclosed <div> was present before </section>, causing validation failure.
+🔹 Solution:
+Remove the extra <div> before </section> and ensure all elements are closed properly.
+✅ Fixed Example:
+</div> <!-- Ensure all divs are closed -->
+</section> <!-- Section now properly closed -->
+
+  All errors fixed and retested to ensure compliant with W3C Mark up Validation tested on 07-02-2025
 ### CSS Validation
 
 - The CSS code was validated using the [W3C CSS Validator](assets/images/Favicon/images/Screenshot_14-12-2024_7645_jigsaw.w3.org.jpeg)
