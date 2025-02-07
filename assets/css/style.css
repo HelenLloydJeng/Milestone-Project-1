@@ -323,12 +323,15 @@
             font-size: 2rem;
             /*larger for desktops*/
         }
-
+        
         main {
             max-width: 1200px;
             margin: 0 auto;
         }
 
+        .hero {
+            height: 80vh; /*reduce height for medium devices*/
+        }
         .card-img-top {
             height: 400px;
         }
