@@ -79,6 +79,7 @@ This thoughtfully crafted design ensures that the website not only showcases Car
   - Full-screen background image with a focus on responsiveness.
   - A clear, bold headline styled with the site's signature typography.
 
+
 ### 2. Navigation Bar
 
 - **Description**: The navigation bar provides users with easy access to the site's primary sections, ensuring smooth navigation across the website.
@@ -600,6 +601,19 @@ Results:
 - Best Practices:
 - SEO:
 
+
+
+
+  ### Manual Testing - Contact Form Validation
+
+| Test Case | Expected Outcome | Actual Outcome | Pass/Fail |
+|-----------|----------------|---------------|----------|
+| Submit form with all fields filled correctly | Form submits successfully and redirects to the thank-you page | ✅ Form submits as expected | Pass |
+| Submit form without entering a name | Error message appears, preventing submission | ✅ Error message displayed | Pass |
+| Submit form without entering an email | Error message appears, preventing submission | ✅ Error message displayed | Pass |
+| Submit form with an invalid email format | Error message appears, preventing submission | ✅ Error message displayed | Pass |
+| Submit form without entering a message | Error message appears, preventing submission | ✅ Form submits unexpectedly | Pass |
+
 ### Responsiveness Testing
 
 The website was manually tested across various devices and screen sizes to ensure responsiveness:
@@ -613,16 +627,19 @@ The website was manually tested across various devices and screen sizes to ensur
   - Mozilla Firefox
   - Safari
 
+### Issue:
+- The height of the hero section was too large, causing layout issues on smaller devices.
 
-  ### Manual Testing - Contact Form Validation
+### Fix:
+- Reduced the height of the hero section to make it more responsive and improve layout across various devices.
 
-| Test Case | Expected Outcome | Actual Outcome | Pass/Fail |
-|-----------|----------------|---------------|----------|
-| Submit form with all fields filled correctly | Form submits successfully and redirects to the thank-you page | ✅ Form submits as expected | Pass |
-| Submit form without entering a name | Error message appears, preventing submission | ✅ Error message displayed | Pass |
-| Submit form without entering an email | Error message appears, preventing submission | ✅ Error message displayed | Pass |
-| Submit form with an invalid email format | Error message appears, preventing submission | ✅ Error message displayed | Pass |
-| Submit form without entering a message | Error message appears, preventing submission | ✅ Form submits unexpectedly | Pass |
+### Testing:
+- The change was tested on the following devices using **Chrome Developer Tools**: tested on 07-02-2025
+  - **Surface Pro** (Desktop view)
+  - **iPad** (Tablet view)
+  - **Galaxy Z Fold** (Mobile view)
+
+
 
 ### Debugging Tools
 
