@@ -1,5 +1,4 @@
-    @import 
-    url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
     /*Asterisk wildcard selector to override default styles added by the browser */
     * {
@@ -24,7 +23,7 @@
         font-family: "Playfair Display", "serif";
     }
 
-     /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
+    /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
     /*header*/
     header {
         background-color: #CBA328;
@@ -34,47 +33,47 @@
         /*space between logo and burger*/
         display: flex;
         align-items: center;
-            
+
 
     }
 
     .hero-bg {
 
         background-image: url(../images/Favicon/IMAGES/pexels-freestockpro-12955808.jpg);
-      
-        background-size: cover;
-      
-        background-position: center;
-      
-        background-repeat: no-repeat;
-      
-        height: 100vh;
-      
-        margin: 0;
-      
-      }
 
-      .header-color {
+        background-size: cover;
+
+        background-position: center;
+
+        background-repeat: no-repeat;
+
+        height: 100vh;
+
+        margin: 0;
+
+    }
+
+    .header-color {
 
         color: #cba328;
-      
-      }
-      
-      
-      
-      .nav-bg {
-      
+
+    }
+
+
+
+    .nav-bg {
+
         background-color: #cba328;
-        
-      
-      }
-      
+
+
+    }
+
 
     header a {
         text-decoration: none;
         /*remove underline*/
         color: inherit;
-        
+
     }
 
     /*optimized for mobile*/
@@ -83,25 +82,24 @@
         color: #FFFFF0;
     }
 
-   .hero-img {
+    .hero-img {
         display: block;
         max-width: 100%;
         height: auto;
         object-fit: cover;
 
-   }
+    }
+
     .hero-text {
-        color: #CBA328; /* Gold color */
+        color: #CBA328;
+        /* Gold color */
     }
-    
+
     .hero-text p {
-        color: #CBA328; /* Gold color for paragraph text */
+        color: #CBA328;
+        /* Gold color for paragraph text */
     }
 
-  
-
-
-    
     /*change button color globally overide bootstrap*/
 
     .btn {
@@ -118,33 +116,33 @@
     .navbar {
         background-color: #CBA328 !important;
         position: sticky !important;
-            top: 0 !important;
-            z-index: 1000 !important; /* Ensures it stays above other content */
+        top: 0 !important;
+        z-index: 1000 !important;
+        /* Ensures it stays above other content */
     }
 
     .navbar .nav-link {
         color: #5C5346 !important;
         /* overide bootstrap color Replace my text color */
-        transition: color 0.3s ease; /* Smooth transition */
-}
+        transition: color 0.3s ease;
+        /* Smooth transition */
+    }
 
-.navbar .nav-link:hover {
-    color: #f2f0eb !important;/* color on hover */
-}
+    .navbar .nav-link:hover {
+        color: #f2f0eb !important;
+        /* color on hover */
+    }
 
     .navbar .navbar-brand {
-        color: #5C5346  !important;
+        color: #5C5346 !important;
         /* override bootstrap colourcolor */
     }
-    
+
 
     .hero-section .overlay {
         margin: 0;
-        padding:0;
+        padding: 0;
     }
-
-    
-    
 
     /* Main content */
     main {
@@ -157,9 +155,8 @@
 
     }
 
-
     h2 {
-        font-family: "Playfair Display","serif";
+        font-family: "Playfair Display", "serif";
         color: #CBA328;
         margin-bottom: 10px;
     }
@@ -215,10 +212,8 @@
     .card {
         transition: transform 0.3s;
         border: #CBA328;
-    }
-        card {
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
     }
 
     .card:hover {
@@ -248,40 +243,50 @@
         color: #555;
         line-height: 1.5;
     }
+
     .drama-header {
 
         color: #cba328;
-      
-      }
+
+    }
 
     /*Footer*/
     footer#main-footer {
-        background-color: #5C5346 !important; /* Brown from your palette */
-        color: #FFFFF0 !important; /* Ivory text for readability */
-        padding: 20px 0 !important; /* Adjust padding for spacing */
+        background-color: #5C5346 !important;
+        /* Brown from your palette */
+        color: #FFFFF0 !important;
+        /* Ivory text for readability */
+        padding: 20px 0 !important;
+        /* Adjust padding for spacing */
         text-align: center !important;
     }
-    
+
     #main-footer .social-icons a {
-        color: #CBA328 !important; /* Gold for the social icons */
+        color: #CBA328 !important;
+        /* Gold for the social icons */
         margin: 0 10px;
-        transition: color 0.3s ease-in-out; /* Smooth hover effect */
-    }
-    
-    #main-footer .social-icons a:hover {
-        color: #a98624; /* Darker gold for hover effect */
-    }
-    
-    #main-footer p {
-        margin: 10px 0; /* Space between paragraphs */
-        font-size: 0.9rem; /* Slightly smaller text for footer */
-    }
-    
-    #main-footer .social-icons {
-        margin: 15px 0; /* Space above and below social icons */
+        transition: color 0.3s ease-in-out;
+        /* Smooth hover effect */
     }
 
-    
+    #main-footer .social-icons a:hover {
+        color: #a98624;
+        /* Darker gold for hover effect */
+    }
+
+    #main-footer p {
+        margin: 10px 0;
+        /* Space between paragraphs */
+        font-size: 0.9rem;
+        /* Slightly smaller text for footer */
+    }
+
+    #main-footer .social-icons {
+        margin: 15px 0;
+        /* Space above and below social icons */
+    }
+
+
 
     /*for tablets min width 768px) */
     @media (min-width: 768px) {
@@ -307,31 +312,32 @@
         }
     }
 
-        /* For Desktops (min-width: 1024px) */
+    /* For Desktops (min-width: 1024px) */
 
-        @media (min-width: 1024px) {
-            header {
-                padding: 30px;
-            }
+    @media (min-width: 1024px) {
+        header {
+            padding: 30px;
+        }
 
-                header h1 {
-                    font-size: 2rem;
-                      /*larger for desktops*/
-                }
-             main {
-                    max-width: 1200px;
-                    margin: 0 auto;
-                }
+        header h1 {
+            font-size: 2rem;
+            /*larger for desktops*/
+        }
 
-                .card-img-top {
-                    height: 400px;
-                }
+        main {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
 
-                .card-title {
-                    font-size: 1.5rem;
-                }
+        .card-img-top {
+            height: 400px;
+        }
 
-                .card-text {
-                    font-size: 1rem;
-                }
-            }
+        .card-title {
+            font-size: 1.5rem;
+        }
+
+        .card-text {
+            font-size: 1rem;
+        }
+    }
