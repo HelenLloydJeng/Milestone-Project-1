@@ -365,7 +365,17 @@ MVP
 - **Responsive Design**: The site is fully responsive, ensuring an optimal experience on all devices.
 - **Structured Navigation**: A clear and intuitive navigation bar guides users to all major sections of the site.
 - **Portfolio Showcase**: Features Carrie’s works, including summaries and images of her plays.
-- **Contact Section**: Provides a contact form, email, and social media links for easy connection.
+- **Contact Section**: Provides a contact form, email, and social media links for easy connection. 
+### Contact Form Validation
+The contact form includes built-in validation to ensure users provide necessary details before submission.  
+- The **Name** field is required.  
+- The **Email** field must contain a valid email format.  
+- The **Message** field is required.  
+
+If any required field is left empty, the form will prevent submission and prompt the user with an error message.
+
+
+
 - **Biography**: A dedicated about section presenting Carrie’s background, skills, and teaching philosophy.
 
 ### Mobile Wireframe
@@ -602,6 +612,17 @@ The website was manually tested across various devices and screen sizes to ensur
   - Google Chrome
   - Mozilla Firefox
   - Safari
+
+
+  ### Manual Testing - Contact Form Validation
+
+| Test Case | Expected Outcome | Actual Outcome | Pass/Fail |
+|-----------|----------------|---------------|----------|
+| Submit form with all fields filled correctly | Form submits successfully and redirects to the thank-you page | ✅ Form submits as expected | Pass |
+| Submit form without entering a name | Error message appears, preventing submission | ✅ Error message displayed | Pass |
+| Submit form without entering an email | Error message appears, preventing submission | ✅ Error message displayed | Pass |
+| Submit form with an invalid email format | Error message appears, preventing submission | ✅ Error message displayed | Pass |
+| Submit form without entering a message | Error message appears, preventing submission | ✅ Form submits unexpectedly | Pass |
 
 ### Debugging Tools
 
