@@ -555,6 +555,22 @@ This project's CSS has been validated using the W3C CSS Validator:
 
 [![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)](http://jigsaw.w3.org/css-validator/check/referer) date tested 07-02-2024
 
+## Accessibility & Contrast Testing
+
+To ensure the website meets accessibility standards, I tested the text contrast using the **WebAIM Contrast Checker**.
+
+### Contrast Adjustments Made:
+- Updated text color to **#1C1C1C** for improved readability and accessibility.
+- Ensured a **contrast ratio of 7.14:1**, which passes **WCAG AA & AAA standards** for normal text.
+- Verified all key text elements, including headers, paragraphs, and buttons, against their respective background colors.
+
+### Testing Tools Used:
+- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+- DevTools Accessibility Inspector
+
+By implementing these changes, the website ensures **better readability** for users with visual impairments while maintaining a **consistent and professional design**.
+
+
 
 ### Lighthouse Performance Testing
 
