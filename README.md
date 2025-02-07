@@ -547,11 +547,14 @@ Remove the extra <div> before </section> and ensure all elements are closed prop
 </div> <!-- Ensure all divs are closed -->
 </section> <!-- Section now properly closed -->
 
-  All errors fixed and retested to ensure compliant with W3C Mark up Validation tested on 07-02-2025
-### CSS Validation
+  All errors fixed and retested to ensure compliant with W3C Mark up Validation tested on 07-02-202
 
-- The CSS code was validated using the [W3C CSS Validator](assets/images/Favicon/images/Screenshot_14-12-2024_7645_jigsaw.w3.org.jpeg)
-- Results: The CSS passed validation with no significant errors or warnings.
+## CSS Validation
+
+This project's CSS has been validated using the W3C CSS Validator:
+
+[![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)](http://jigsaw.w3.org/css-validator/check/referer) date tested 07-02-2024
+
 
 ### Lighthouse Performance Testing
 
