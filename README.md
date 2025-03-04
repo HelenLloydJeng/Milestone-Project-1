@@ -375,59 +375,7 @@ The contact form includes built-in validation to ensure users provide necessary 
 
 If any required field is left empty, the form will prevent submission and prompt the user with an error message.
 
-
-
-- **Biography**: A dedicated about section presenting Carrie’s background, skills, and teaching philosophy.
-
-### Mobile Wireframe
-
-The mobile design emphasises simplicity and usability with a vertical scrolling layout. Key elements include:
-
-- A sticky header for navigation.
-- Compact sections with optimised text sizes for smaller screens.
-- Responsive images and buttons.
-
-**Wireframe Screenshot:**
-![Mobile Wireframe](assets/images/Favicon/images/mobile wireframe.jpg)
-
-### Tablet Wireframe
-
-The tablet design builds on the mobile layout, utilising more screen space for better readability. Key elements include:
-
-- A slightly wider header with navigation links spaced out.
-- Increased padding around sections for a cleaner layout.
-- Multi-column content layout where applicable.
-
-**Wireframe Screenshot:**
-![Tablet Wireframe](assets/images/Favicon/images/tablet wireframe.jpg)
-
-### Desktop Wireframe
-
-The desktop design uses the full width of the screen to provide an immersive experience. Key features include:
-
-- A horizontal navigation bar with hover effects.
-- Full-width hero images and multi-column text layouts.
-- Additional spacing for visual balance.
-
-**Wireframe Screenshot:**
-![Desktop Wireframe](assets/images/Favicon/Favicon/desktop wireframe.jpg)
-
-### Responsive Design Overview
-
-The website adapts seamlessly across devices using media queries:
-
-- **Mobile (max-width: 767px):** Single-column layout with simplified navigation.
-- **Tablet (768px - 1023px):** Two-column layouts where appropriate, with larger buttons and images.
-- **Desktop (min-width: 1024px):** Multi-column layouts, expanded navigation, and increased visual spacing.
-
-**Main Technologies**
-
-- **HTML5**: For semantic and accessible page structure.
-- **CSS3**: Clean a## nd responsive design with a minimalist aesthetic.
-- **Bootstrap** (Optional): For responsive layouts, grid systems, and navigation components.
-- **Git & GitHub**: For version control and deployment.
-
-## **Website Structure**
+# **Website Structure**
 
 ### **Pages/Sections**
 
@@ -442,6 +390,201 @@ The website adapts seamlessly across devices using media queries:
 3. **Contact/About section**
    - two sections with a detailed biography and a fully functional contact form.
    - Social media links and direct contact details displayed intuitively.
+4.- **Biography**: A dedicated about section presenting Carrie’s background, skills, and teaching philosophy.
+
+ ## **Wireframe Layout Summary (Text-Based)**
++---------------------------------------------------------------+
+| Header Section (Logo & Navigation)                            |
++---------------------------------------------------------------+
+Home Page:
+| Hero Section (Image + Tagline + CTA Button)                   |
+| About Carrie Section                                           |
+| Portfolio Preview Section                                      |
+| Upcoming Events Section                                        |
+| Testimonials Section                                             |
+| Footer with Social Links                                       |
++---------------------------------------------------------------+
+
+Portfolio Page:
+| Filter (Dropdown to select categories)                         |
+| Grid displaying projects (cards with thumbnails)               |
+| Project Detail Pages (Images, Descriptions, Multimedia)       |
++---------------------------------------------------------------+
+
+About/Teaching Page:
+| Biography Section with Text & Images                        |
+| Teaching Methodology with Multimedia Examples             |
+| Achievements Timeline Grid                                   |
++---------------------------------------------------------------+
+
+Events Page:
+| Upcoming Event Cards with Date, Time, Location, CTA Buttons |
+| Past Events Section with Multimedia/Collaborative Images     |
++---------------------------------------------------------------+
+
+Contact Page:
+| Contact Form (Full Name, Email, Subject, Message Box)       |
+| Social Media Links                                            |
+| Direct Contact Information (Email, LinkedIn, Phone)         |
++---------------------------------------------------------------+---
+
+# **Wireframe Descriptions**
+
+## 1. **Home Page Wireframe**
+### Key Components:
+1. **Header Section** (Top Navigation)
+- Logo on the top-left.
+- Navigation bar on the right with links:
+  - Home | Portfolio | About | Teaching | Events | Contact
+2. **Hero Section**
+- Full-width image/banner with a professional background (e.g., photos of Carrie on stage, writing, or teaching).
+- A bold tagline (e.g., *"Celebrating the Art of Writing, Playwriting, and Drama Teaching"*).
+- A brief introductory text about Carrie.
+- CTA Button ("Explore My Work").
+
+3. **About Carrie Section**
+- A short text block highlighting her expertise as a writer, author, and drama teacher.
+- Images of Carrie working on projects, teaching, or performing.
+
+4. **Portfolio Preview**
+- A grid layout showing thumbnails of selected projects.
+- Each project box includes an image, project title, and brief description.
+- Each thumbnail links to the detailed project page.
+5. **Upcoming Events/Workshops**
+- A horizontal scroll or card layout displaying upcoming workshops and classes.
+- Includes event details (Date, Location, CTA to Book/Register).
+
+6. **Testimonials Section**
+- Carousel or grid showing quotes from collaborators, clients, and students.
+- Include photos and names for added authenticity.
+7. **Footer**
+- Includes links:
+  - Contact Information
+  - Social Media Links (Instagram, Twitter, LinkedIn)
+  - Quick Navigation Links
+  - Copyright Information
+
+## 2. **Portfolio Page Wireframe**
+### Key Components:
+1. **Header Section** (Navigation Bar)
+- Consistent with the Home Page navigation bar.
+2. **Portfolio Categories**
+- A filter or dropdown menu to select categories:
+  - Plays | Writing | Collaborations | Teaching Initiatives.
+3. **Project Grid**
+- A clean grid layout with each project represented as a card.
+- Each card includes:
+  - Project Image
+  - Project Title
+  - A brief description
+  - A "View Project" button linking to more details.
+4. **Detailed Project View**
+- A dedicated page for each project with:
+  - High-quality images and videos.
+  - A detailed description of Carrie’s role and contributions.
+  - Links to collaborators or relevant background information.
+## 3. **About / Teaching Methodology Page Wireframe**
+### Key Components:
+
+1. **Header Section** (Navigation Bar)
+- Consistent with other pages.
+2. **Biography Section**
+- A clean, well-organized text block with:
+  - A photo of Carrie.
+  - A professional background detailing her experience and accomplishments.
+
+3. **Teaching Methodology**
+- A dedicated subsection with:
+  - Text and images explaining Carrie’s teaching approach.
+  - Examples of lesson plans and methodologies.
+  - Multimedia content (e.g., classroom photos or short videos).
+
+4. **Achievements Section**
+- A timeline or grid showcasing key milestones:
+  - Awards, collaborations, workshops, and other significant achievements.
+## 4. **Events Page Wireframe**
+
+### Key Components:
+
+1. **Header Section** (Navigation Bar)
+- Consistent across all pages.
+2. **Upcoming Events Grid**
+- Each event displayed in a card format:
+  - Date, time, location.
+  - CTA button: **"Register" or "Book Now."**
+  - A short description and relevant images.
+
+3. **Past Events Section**
+- Thumbnail images and short descriptions of past workshops or creative projects.
+- Testimonials or behind-the-scenes images.
+
+4. **CTA Section**
+- A prominent button or form inviting collaboration inquiries:
+  - "Host a Workshop with Carrie" or "Collaborate on a Creative Project."
+
+## 5. **Contact Page Wireframe**
+### Key Components:
+1. **Header Section** (Navigation Bar)
+- Consistent navigation across all sections.
+
+2. **Contact Form**
+- Input fields:
+  - Full Name
+  - Email Address
+  - Subject
+  - Message Box (Textarea)
+
+3. **Social Media Links**
+- A horizontal list of clickable social icons:
+  - Instagram | Twitter | LinkedIn | Facebook.
+4. **Direct Contact Information**
+- Carrie’s email address.
+- Professional phone number (optional).
+- A call to action encouraging direct outreach or collaboration.
+
+
+### Mobile Wireframe
+
+The mobile design emphasises simplicity and usability with a vertical scrolling layout. Key elements include:
+
+- A sticky header for navigation.
+- Compact sections with optimised text sizes for smaller screens.
+- Responsive images and buttons.
+
+### Tablet Wireframe
+
+The tablet design builds on the mobile layout, utilising more screen space for better readability. Key elements include:
+
+- A slightly wider header with navigation links spaced out.
+- Increased padding around sections for a cleaner layout.
+- Multi-column content layout where applicable.
+
+### Desktop Wireframe
+
+The desktop design uses the full width of the screen to provide an immersive experience. Key features include:
+
+- A horizontal navigation bar with hover effects.
+- Full-width hero images and multi-column text layouts.
+- Additional spacing for visual balance.
+
+**Wireframe Screenshot:**
+(assets/images/Favicon/Favicon/desktop wireframe.jpg)
+
+### Responsive Design Overview
+
+The website adapts seamlessly across devices using media queries:
+
+- **Mobile (max-width: 767px):** Single-column layout with simplified navigation.
+- **Tablet (768px - 1023px):** Two-column layouts where appropriate, with larger buttons and images.
+- **Desktop (min-width: 1024px):** Multi-column layouts, expanded navigation, and increased visual spacing.
+
+**Main Technologies**
+
+- **HTML5**: For semantic and accessible page structure.
+- **CSS3**: Clean a## nd responsive design with a minimalist aesthetic.
+- **Bootstrap**: For responsive layouts, grid systems, and navigation components.
+- **Git & GitHub**: For version control and deployment.
+
 
 ## **Deployment**
 
@@ -461,9 +604,9 @@ This section outlines the various tests conducted to ensure the website's functi
 ### HTML Validation
 
 - The HTML code was tested using the [W3C HTML Validator](assets/images/Favicon/images/Screenshot_14-12-2024_9422_validator.w3.org.jpeg).
-- Results: The HTML code has a few errors of unclosed elements, but no no critical issues, ensuring semantic structure and compliance with web standards. ( I have literally run out of time to correct these errors)
+- Results: The HTML code has a few errors of unclosed elements, but no no critical issues, ensuring semantic structure and compliance with web standards. These have been corrected and re tested - below.
 
-W3C Markup Validation Report & Fixes
+### W3C Markup Validation Report & Fixes
 Overview
 This document outlines the errors and warnings identified by the W3C Markup Validation Service in the project's HTML code. It also includes solutions for each issue to ensure compliance with best practices.
 ________________________________________
