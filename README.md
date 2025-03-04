@@ -597,6 +597,24 @@ I deployed the page on GitHub pages via the following procedure: -
 
 You  can find the live site via the following URL [Helen Lloyds MileStone Project 1 Live Webpage] (<https://helenlloydjeng.github.io/Milestone-Project-1/>)
 
+
+## Fixing Uneven Card Heights
+
+To ensure that all portfolio cards maintain the same height, the following Bootstrap utilities were applied:
+
+- **`h-100`** on each `.card` to make sure all cards take up the full height of their parent column.
+- **`d-flex flex-column`** on `.card-body` to enable flexible column-based layout.
+- **`flex-grow-1`** on paragraphs (`.card-text`) to distribute content evenly and push the bottom text downward.
+
+### **Code Example**
+```html
+<div class="card h-100 d-flex flex-column">
+    <div class="card-body d-flex flex-column">
+        <h5 class="card-title">Title</h5>
+        <p class="card-text flex-grow-1">This text will expand, making all cards equal in height.</p>
+    </div>
+</div>
+
 ## Testing
 
 This section outlines the various tests conducted to ensure the website's functionality, performance, and responsiveness.
