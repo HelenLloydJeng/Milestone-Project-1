@@ -13,11 +13,17 @@
         display: flex;
         flex-direction: column;
 
+
+           
         /* Generic project styles */
         color: #1C1C1C;
         font-family: "Lora", "serif";
     }
-
+    img {
+        width: 100%;  /* Adjust based on container */
+        height: auto; /* Maintain aspect ratio */
+        aspect-ratio: attr(width) / attr(height); /* Helps browsers allocate space */
+    }
 
     h1 {
         font-family: "Playfair Display", "serif";
@@ -33,6 +39,7 @@
         /*space between logo and burger*/
         display: flex;
         align-items: center;
+      
 
 
     }
@@ -55,12 +62,10 @@
 
     .header-color {
 
-        color: #cba328;
-
-    }
-
-
-
+        color: #cba328; /* Darker shade for better contrast */
+        }
+        
+   
     .nav-bg {
 
         background-color: #cba328;
@@ -91,27 +96,31 @@
     }
 
     .hero-text {
-        color: #CBA328;
-        /* Gold color */
+        color: #3E2A47; /* Dark purple for better contrast */
     }
-
+    
     .hero-text p {
-        color: #CBA328;
-        /* Gold color for paragraph text */
+        color: #3E2A47;  !important; /* Dark purple for paragraph text */
     }
-
+    
+    
     /*change button color globally overide bootstrap*/
 
-    .btn {
-        background-color: #CBA328;
-        border-color: #5C5346;
-        color: #FFFFF0;
-    }
+   .btn {
+    background-color: #CBA328; /* Retain gold background */
+    border-color: #5C5346 !important;
+    color: #3E2A47; /* Darker text color */
+}
 
-    .btn:hover {
-        background-color: #a29e92;
-        border-color: #CBA328;
-    }
+.btn:hover {
+    background-color: #a29e92;
+    border-color: #CBA328;
+    color: #FFFFF0; /* Ivory text on hover */
+}
+
+
+
+
 
     .navbar {
         background-color: #CBA328 !important;
@@ -121,22 +130,24 @@
         /* Ensures it stays above other content */
     }
 
-    .navbar .nav-link {
-        color: #5C5346 !important;
+   .navbar .nav-link {
+    color: #3E2A47 !important; /* Dark Purple for higher contrast */
+        
         /* overide bootstrap color Replace my text color */
         transition: color 0.3s ease;
         /* Smooth transition */
     }
-
     .navbar .nav-link:hover {
         color: #f2f0eb !important;
         /* color on hover */
     }
 
     .navbar .navbar-brand {
-        color: #5C5346 !important;
+        color:  #3E2A47  !important;
         /* override bootstrap colourcolor */
     }
+
+  
 
 
     .hero-section .overlay {
@@ -196,7 +207,7 @@
         font-size: 1rem;
         line-height: 1.6;
         margin-bottom: 10px;
-        color: #2a2822;
+        color:  #3E2A47 
         text-align: justify;
         /* Align text  */
     }
@@ -240,7 +251,7 @@
 
     .card-text {
         font-size: 1rem;
-        color: #555;
+        color: #3E2A47 ;
         line-height: 1.5;
     }
 
@@ -252,7 +263,7 @@
 
     /*Footer*/
     footer#main-footer {
-        background-color: #5C5346 !important;
+        background-color: #5C5346!important;
         /* Brown from your palette */
         color: #FFFFF0 !important;
         /* Ivory text for readability */
