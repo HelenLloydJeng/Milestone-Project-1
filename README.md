@@ -648,7 +648,7 @@ This section outlines the various tests conducted to ensure the website's functi
 - Results: The HTML code has a few errors of unclosed elements, but no no critical issues, ensuring semantic structure and compliance with web standards. These have been corrected and re tested - below.
 
 ### W3C Markup Validation Report & Fixes
-Overview
+Overviewgi
 This document outlines the errors and warnings identified by the W3C Markup Validation Service in the project's HTML code. It also includes solutions for each issue to ensure compliance with best practices.
 ________________________________________
 Validation Errors & Fixes
