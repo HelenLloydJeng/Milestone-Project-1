@@ -597,6 +597,29 @@ I deployed the page on GitHub pages via the following procedure: -
 
 You  can find the live site via the following URL [Helen Lloyds MileStone Project 1 Live Webpage] (<https://helenlloydjeng.github.io/Milestone-Project-1/>)
 
+# Accessibility & Performance Improvements
+
+## Changes Made
+
+### ✅ Fixed Image Dimension Issues  
+- Added explicit `width` and `height` attributes to all `<img>` elements to prevent **layout shifts (CLS)**.  
+- Resized a large image to improve **performance and loading speed**.  
+
+### ✅ Fixed Heading Order Issues  
+- Ensured all heading elements (`<h1>`, `<h2>`, `<h3>`, etc.) are in **sequential descending order** to improve accessibility.  
+- Replaced incorrect `<h5>` tags with appropriate heading levels where necessary.
+
+### ✅ Improved Color Contrast for Accessibility  
+- Adjusted text colors to **meet WCAG contrast guidelines**.  
+- Ensured buttons and navigation links have sufficient contrast for readability.
+
+### 🚀 **Results After Changes**  
+- **Performance:** ✅ Improved  
+- **Accessibility:** ✅ Improved  
+- **SEO & Best Practices:** ✅ Improved  
+
+These changes enhance **user experience, readability, and website accessibility**. 🚀  
+
 
 ## Fixing Uneven Card Heights
 
