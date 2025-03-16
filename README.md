@@ -10,8 +10,8 @@ The Carrie Jones Portfolio website is designed to showcase the artistic talents 
 The chosen colour palette reflects the elegance and creativity of Carrie Jones' brand:  
 
 - **#FFFFF0 (Ivory)**: Used as the primary background colour to ensure a clean and sophisticated look.  
-- **#CBA328 (Gold)**: Highlights key elements like headings, buttons, and hover states, symbolizing creativity and prestige.  
-- **#5C5346 (Brown)**: Adds depth and warmth, prominently featured in the footer, navbar branding, and certain text elements.  
+- **#a58841f (Gold)**: Highlights key elements like headings, buttons, and hover states, symbolizing creativity and prestige.  
+- **#5C5346 (Brown)**: Adds depth and warmth, prominently featured in the footer, navbar branding, and certain text elements. **#1C1C1C** Black for contrast accessibility.
 
 This combination balances sophistication with readability, creating a professional and engaging atmosphere.  
 
@@ -81,7 +81,6 @@ This thoughtfully crafted design ensures that the website not only showcases Car
 
 
 ### 2. Navigation Bar
-
 - **Description**: The navigation bar provides users with easy access to the site's primary sections, ensuring smooth navigation across the website.
 - **Key Design Elements**:
   - Sticky design for consistent visibility.
@@ -89,12 +88,11 @@ This thoughtfully crafted design ensures that the website not only showcases Car
   - Fully responsive for mobile and desktop screens.
 
 ### 3. About Me Section
-
 - **Description**: This section introduces the site's subject with a biography, a photo, and a brief overview of their background.
 - **Key Design Elements**:
   - Balanced text and image layout.
   - Centered headings styled with a serif font to maintain elegance.
-- **Screenshot**:  
+- **Screenshot**:  (![alt carrie jones about me](assets\images\Favicon\Screenshot_14-12-2024_74516_helenlloydjeng.github.io.jpeg))
   
 ### 4. Portfolio Section
 
@@ -104,15 +102,12 @@ This thoughtfully crafted design ensures that the website not only showcases Car
   - Consistent layout with responsive resizing for smaller screens.---
 
 ### 5. Footer
-
 - **Description**: The footer includes social media links and copyright information, providing a clean and polished ending to the site.
 - **Key Design Elements**:
   - Social media icons styled with hover effects.
   - A background color that contrasts with the main body for better visibility.
 - **Screenshot**:  
-  ![site]()
-
-# Design ![Choices](<assets/images/Favicon/screenshot about me.jpeg>) for Carrie Jones' Portfolio Website  
+  # Design ![Choices](<assets/images/Favicon/screenshot about me.jpeg>) for Carrie Jones' Portfolio Website  
 
 ## **Project Objectives**
 
@@ -357,218 +352,72 @@ The primary goal of this portfolio website is to:
 - [ x] Optimise animations and transitions to ensure a smooth interface experience.
 - [ ]x Test all interactive elements across different devices (desktop, tablet, mobile).-
 
-## **Features**
 
-### **Website Highlights**
+#  Website Structure  
 
-MVP
+## 📄 Pages & Sections  
 
-- **Responsive Design**: The site is fully responsive, ensuring an optimal experience on all devices.
-- **Structured Navigation**: A clear and intuitive navigation bar guides users to all major sections of the site.
-- **Portfolio Showcase**: Features Carrie’s works, including summaries and images of her plays.
-- **Contact Section**: Provides a contact form, email, and social media links for easy connection. 
-### Contact Form Validation
-The contact form includes built-in validation to ensure users provide necessary details before submission.  
-- The **Name** field is required.  
-- The **Email** field must contain a valid email format.  
-- The **Message** field is required.  
+1. **Home**  
+   - Introduction to Carrie Jones with quick links.  
+   - Featured portfolio projects & upcoming events.  
 
-If any required field is left empty, the form will prevent submission and prompt the user with an error message.
+2. **Portfolio**  
+   - Grid layout showcasing plays, writing, and collaborations.  
+   - Each project includes images, descriptions and details  
+3. **About / Teaching**  
+   - Biography with images.  
+   - Teaching philosophy & achievements.  
 
-# **Website Structure**
+4. **Events**  
+      - Past events with photos & testimonials.  
 
-### **Pages/Sections**
+5. **Contact**  
+   - Contact form (name, email, message).  
+   - Social media links & direct contact details.  
 
-1. **Home Page**
-   - A welcoming section with an introduction to Carrie Jones.
-   - Quick links to her portfolio, biography, and contact sections.
+---
 
-2. **Portfolio Section**
-   - A showcase of projects with summaries, images, and relevant details.
-   - Organized in a grid layout or card system for clarity and accessibility.
+##  **Wireframe Summary**  
 
-3. **Contact/About section**
-   - two sections with a detailed biography and a fully functional contact form.
-   - Social media links and direct contact details displayed intuitively.
-4.- **Biography**: A dedicated about section presenting Carrie’s background, skills, and teaching philosophy.
+### **Home Page**  
+📌 **Key Sections:**  
+✔ **Hero Section:** Intro, tagline, CTA button.  
+✔ **Portfolio Preview:** Grid of selected projects.  
+✔ **Events:** Cards with event details.  
+✔ **Footer:** Contact, social links, copyright info.  
 
- ## **Wireframe Layout Summary (Text-Based)**
-+---------------------------------------------------------------+
-| Header Section (Logo & Navigation)                            |
-+---------------------------------------------------------------+
-Home Page:
-| Hero Section (Image + Tagline + CTA Button)                   |
-| About Carrie Section                                           |
-| Portfolio Preview Section                                      |
-| Upcoming Events Section                                        |
-| Testimonials Section                                             |
-| Footer with Social Links                                       |
-+---------------------------------------------------------------+
+### **Portfolio Page**  
+✔ **Project Categories:** Filter by type (Plays, Writing, Collaborations).  
+✔ **Grid Layout:** Each project displayed as a card with an image & description.  
+✔ **Play Details:** Dedicated page with images, play description 
 
-Portfolio Page:
-| Filter (Dropdown to select categories)                         |
-| Grid displaying projects (cards with thumbnails)               |
-| Project Detail Pages (Images, Descriptions, Multimedia)       |
-+---------------------------------------------------------------+
+### **About / Teaching Page**  
+✔ **Biography:** Carrie's background & achievements.  
+✔ **Visual Elements:** Images of drama classes.  
 
-About/Teaching Page:
-| Biography Section with Text & Images                        |
-| Teaching Methodology with Multimedia Examples             |
-| Achievements Timeline Grid                                   |
-+---------------------------------------------------------------+
+### **Events Page**  
+✔ **Past Events:** Highlights, review , and images.  
 
-Events Page:
-| Upcoming Event Cards with Date, Time, Location, CTA Buttons |
-| Past Events Section with Multimedia/Collaborative Images     |
-+---------------------------------------------------------------+
+### **Contact Page**  
+✔ **Form:** Name, email, subject, message.  
+✔ **Social Links:** Clickable icons (Instagram, LinkedIn, Twitter).  
 
-Contact Page:
-| Contact Form (Full Name, Email, Subject, Message Box)       |
-| Social Media Links                                            |
-| Direct Contact Information (Email, LinkedIn, Phone)         |
-+---------------------------------------------------------------+---
+---
 
-# **Wireframe Descriptions**
+## **Responsive Design** 
+### **Mobile**  
+- Simple vertical scrolling layout.  
+- Sticky header for easy navigation.  
 
-## 1. **Home Page Wireframe**
-### Key Components:
-1. **Header Section** (Top Navigation)
-- Logo on the top-left.
-- Navigation bar on the right with links:
-  - Home | Portfolio | About | Teaching | Events | Contact
-2. **Hero Section**
-- Full-width image/banner with a professional background (e.g., photos of Carrie on stage, writing, or teaching).
-- A bold tagline (e.g., *"Celebrating the Art of Writing, Playwriting, and Drama Teaching"*).
-- A brief introductory text about Carrie.
-- CTA Button ("Explore My Work").
+### **Tablet**  
+- Wider layout with better spacing.  
+- Multi-column content where applicable.  
 
-3. **About Carrie Section**
-- A short text block highlighting her expertise as a writer, author, and drama teacher.
-- Images of Carrie working on projects, teaching, or performing.
+### **Desktop**  
+- Full-width design for an immersive experience.  
+- Hover effects & structured multi-column sections.  
 
-4. **Portfolio Preview**
-- A grid layout showing thumbnails of selected projects.
-- Each project box includes an image, project title, and brief description.
-- Each thumbnail links to the detailed project page.
-5. **Upcoming Events/Workshops**
-- A horizontal scroll or card layout displaying upcoming workshops and classes.
-- Includes event details (Date, Location, CTA to Book/Register).
-
-6. **Testimonials Section**
-- Carousel or grid showing quotes from collaborators, clients, and students.
-- Include photos and names for added authenticity.
-7. **Footer**
-- Includes links:
-  - Contact Information
-  - Social Media Links (Instagram, Twitter, LinkedIn)
-  - Quick Navigation Links
-  - Copyright Information
-
-## 2. **Portfolio Page Wireframe**
-### Key Components:
-1. **Header Section** (Navigation Bar)
-- Consistent with the Home Page navigation bar.
-2. **Portfolio Categories**
-- A filter or dropdown menu to select categories:
-  - Plays | Writing | Collaborations | Teaching Initiatives.
-3. **Project Grid**
-- A clean grid layout with each project represented as a card.
-- Each card includes:
-  - Project Image
-  - Project Title
-  - A brief description
-  - A "View Project" button linking to more details.
-4. **Detailed Project View**
-- A dedicated page for each project with:
-  - High-quality images and videos.
-  - A detailed description of Carrie’s role and contributions.
-  - Links to collaborators or relevant background information.
-## 3. **About / Teaching Methodology Page Wireframe**
-### Key Components:
-
-1. **Header Section** (Navigation Bar)
-- Consistent with other pages.
-2. **Biography Section**
-- A clean, well-organized text block with:
-  - A photo of Carrie.
-  - A professional background detailing her experience and accomplishments.
-
-3. **Teaching Methodology**
-- A dedicated subsection with:
-  - Text and images explaining Carrie’s teaching approach.
-  - Examples of lesson plans and methodologies.
-  - Multimedia content (e.g., classroom photos or short videos).
-
-4. **Achievements Section**
-- A timeline or grid showcasing key milestones:
-  - Awards, collaborations, workshops, and other significant achievements.
-## 4. **Events Page Wireframe**
-
-### Key Components:
-
-1. **Header Section** (Navigation Bar)
-- Consistent across all pages.
-2. **Upcoming Events Grid**
-- Each event displayed in a card format:
-  - Date, time, location.
-  - CTA button: **"Register" or "Book Now."**
-  - A short description and relevant images.
-
-3. **Past Events Section**
-- Thumbnail images and short descriptions of past workshops or creative projects.
-- Testimonials or behind-the-scenes images.
-
-4. **CTA Section**
-- A prominent button or form inviting collaboration inquiries:
-  - "Host a Workshop with Carrie" or "Collaborate on a Creative Project."
-
-## 5. **Contact Page Wireframe**
-### Key Components:
-1. **Header Section** (Navigation Bar)
-- Consistent navigation across all sections.
-
-2. **Contact Form**
-- Input fields:
-  - Full Name
-  - Email Address
-  - Subject
-  - Message Box (Textarea)
-
-3. **Social Media Links**
-- A horizontal list of clickable social icons:
-  - Instagram | Twitter | LinkedIn | Facebook.
-4. **Direct Contact Information**
-- Carrie’s email address.
-- Professional phone number (optional).
-- A call to action encouraging direct outreach or collaboration.
-
-
-### Mobile Wireframe
-
-The mobile design emphasises simplicity and usability with a vertical scrolling layout. Key elements include:
-
-- A sticky header for navigation.
-- Compact sections with optimised text sizes for smaller screens.
-- Responsive images and buttons.
-
-### Tablet Wireframe
-
-The tablet design builds on the mobile layout, utilising more screen space for better readability. Key elements include:
-
-- A slightly wider header with navigation links spaced out.
-- Increased padding around sections for a cleaner layout.
-- Multi-column content layout where applicable.
-
-### Desktop Wireframe
-
-The desktop design uses the full width of the screen to provide an immersive experience. Key features include:
-
-- A horizontal navigation bar with hover effects.
-- Full-width hero images and multi-column text layouts.
-- Additional spacing for visual balance.
-
-**Wireframe Screenshot:**
-(assets/images/Favicon/Favicon/desktop wireframe.jpg)
+---
 
 ### Responsive Design Overview
 
@@ -586,6 +435,128 @@ The website adapts seamlessly across devices using media queries:
 - **Git & GitHub**: For version control and deployment.
 
 
+#  **Testing & Debugging**
+
+## ✅ **Accessibility & Performance Improvements**  
+
+### **Key Fixes Implemented**  
+
+1. **Fixed Image Dimension Issues**  
+   - Added explicit `width` and `height` attributes to prevent **layout shifts (CLS)**.  
+   - Resized large images to improve **loading speed & performance**.  
+
+2. **Fixed Heading Order Issues**  
+   - Ensured `<h1>` to `<h6>` tags follow **logical hierarchy** for better accessibility.  
+
+3. **Improved Color Contrast for Accessibility**  
+   - Adjusted text colors to **meet WCAG contrast guidelines**.  
+   - Enhanced contrast for buttons and navigation links.  
+
+### **🚀 Results After Fixes:**  
+✔ **Performance:** Improved  
+✔ **Accessibility:** Improved  
+✔ **SEO & Best Practices:** Enhanced  
+
+---
+
+## **Fixing Uneven Card Heights**  
+To ensure portfolio cards maintain equal height, the following **Bootstrap utilities** were used:  
+- **`h-100`** → Forces all cards to take full height.  
+- **`d-flex flex-column`** → Enables column-based layout inside `.card-body`.  
+- **`flex-grow-1`** → Pushes bottom content downward for better alignment.  
+
+---
+
+## 🔍 **Validation Testing**
+
+### **✅ HTML Validation**  
+- The HTML was tested using the (![W3C HTML Validator](assets\images\Screenshot-validator.w3.org.jpeg))  
+- **Errors Identified & Fixed:**  
+  1. **Trailing Slash on Void Elements** → Removed unnecessary `/` from `<meta>`, `<link>`, `<img>`.  
+  2. **Illegal Spaces in Image Filenames** → Renamed files (e.g., `carrie jones.webp` → `carriejones.webp`).  
+  3. **Backslash in Image Path** → Changed `\` to `/` in file paths.  
+  4. **Stray End Tags & Unclosed `<div>` Elements** → Corrected missing or extra closing tags.  
+
+🗓 **Retested on:** 07-02-2025 – **All errors resolved.**  
+
+### **✅ CSS Validation**  
+- Validated with (![W3C CSS Validator](assets\images\Screenshot_CSS_jigsaw.w3.org.jpeg)) 
+- **No major errors detected** – CSS follows best practices for responsiveness and accessibility.  
+
+---
+
+## 🌍 **Accessibility & Contrast Testing**  
+
+- Used **WebAIM Contrast Checker** to verify text readability.  
+- Adjustments made:  
+  - Updated text color to `#1C1C1C` for better contrast.  
+  - Ensured **contrast ratio of 7.14:1**, passing **WCAG AA & AAA standards**.  
+- Verified using **DevTools Accessibility Inspector**.  
+
+---
+
+## 📊 **Performance Testing (Lighthouse)**  
+
+### **Lighthouse Scores**  
+Performance, accessibility, best practices, and SEO were tested using **Google Chrome Lighthouse**.  
+
+📱 **Mobile Results:**  
+🖥 **Desktop Results:**  
+*(Insert screenshots or percentage values here)*  
+
+### **Identified Issues & Fixes**  
+- **Issue:** Hero section was too large on mobile.  
+- **Fix:** Reduced hero section height for better **mobile responsiveness**.  
+- **Tested on:**  
+  - **Surface Pro** (Desktop)  
+  - **iPad** (Tablet)  
+  - **Galaxy Z Fold** (Mobile)  
+
+---
+
+## 🧪 **Manual Testing & Debugging**  
+
+### **📩 Contact Form Testing**  
+
+| Test Case | Expected Outcome | Actual Outcome | Pass/Fail |
+|-----------|----------------|---------------|----------|
+| Submit form with all fields filled correctly | Form submits & redirects to thank-you page | ✅ Works as expected | Pass |
+| Submit without name | Error message appears | ✅ Error displayed | Pass |
+| Submit without email | Error message appears | ✅ Error displayed | Pass |
+| Submit with invalid email format | Error message appears | ✅ Error displayed | Pass |
+| Submit without message | Error message appears | ✅ Error displayed | Pass |
+
+---
+
+## 📱 **Responsiveness Testing**  
+
+### **Devices Tested On:**  
+- **iPhone 12** (mobile)  
+- **iPad Pro** (tablet)  
+- **HP Laptop** (desktop)  
+
+### **Browsers Tested On:**  
+- **Google Chrome**  
+- **Mozilla Firefox**  
+- **Safari**  
+
+✅ **Website functions properly across all screen sizes & browsers.**  
+
+---
+
+## 🛠 **Debugging Tools Used**  
+- **Google Chrome DevTools** → For inspecting elements & live debugging.  
+- **Diffchecker** → Compared code versions to detect & fix issues.  
+
+---
+
+## 🎯 **User Stories Testing**  
+All defined user stories were manually tested to ensure a smooth user experience.  
+
+✅ **Website meets all functional and usability requirements.**  
+
+
+
 ## **Deployment**
 
 I deployed the page on GitHub pages via the following procedure: -
@@ -597,238 +568,24 @@ I deployed the page on GitHub pages via the following procedure: -
 
 You  can find the live site via the following URL [Helen Lloyds MileStone Project 1 Live Webpage] (<https://helenlloydjeng.github.io/Milestone-Project-1/>)
 
-# Accessibility & Performance Improvements
-
-## Changes Made
-
-### ✅ Fixed Image Dimension Issues  
-- Added explicit `width` and `height` attributes to all `<img>` elements to prevent **layout shifts (CLS)**.  
-- Resized a large image to improve **performance and loading speed**.  
-
-### ✅ Fixed Heading Order Issues  
-- Ensured all heading elements (`<h1>`, `<h2>`, `<h3>`, etc.) are in **sequential descending order** to improve accessibility.  
-- Replaced incorrect `<h5>` tags with appropriate heading levels where necessary.
-
-### ✅ Improved Color Contrast for Accessibility  
-- Adjusted text colors to **meet WCAG contrast guidelines**.  
-- Ensured buttons and navigation links have sufficient contrast for readability.
-
-### 🚀 **Results After Changes**  
-- **Performance:** ✅ Improved  
-- **Accessibility:** ✅ Improved  
-- **SEO & Best Practices:** ✅ Improved  
-
-These changes enhance **user experience, readability, and website accessibility**. 🚀  
-
-
-## Fixing Uneven Card Heights
-
-To ensure that all portfolio cards maintain the same height, the following Bootstrap utilities were applied:
-
-- **`h-100`** on each `.card` to make sure all cards take up the full height of their parent column.
-- **`d-flex flex-column`** on `.card-body` to enable flexible column-based layout.
-- **`flex-grow-1`** on paragraphs (`.card-text`) to distribute content evenly and push the bottom text downward.
-
-### **Code Example**
-```html
-<div class="card h-100 d-flex flex-column">
-    <div class="card-body d-flex flex-column">
-        <h5 class="card-title">Title</h5>
-        <p class="card-text flex-grow-1">This text will expand, making all cards equal in height.</p>
-    </div>
-</div>
-
-## Testing
-
-This section outlines the various tests conducted to ensure the website's functionality, performance, and responsiveness.
 
 ### HTML Validation
 
 - The HTML code was tested using the [W3C HTML Validator](assets/images/Favicon/images/Screenshot_14-12-2024_9422_validator.w3.org.jpeg).
 - Results: The HTML code has a few errors of unclosed elements, but no no critical issues, ensuring semantic structure and compliance with web standards. These have been corrected and re tested - below.
 
-### W3C Markup Validation Report & Fixes
-Overviewgi
-This document outlines the errors and warnings identified by the W3C Markup Validation Service in the project's HTML code. It also includes solutions for each issue to ensure compliance with best practices.
-________________________________________
-Validation Errors & Fixes
-1. Trailing Slash on Void Elements
-🔹 Issue:
-"Trailing slash on void elements has no effect and interacts badly with unquoted attribute values."
-🔹 Affected Lines:
-•	Lines 2, 4, 5, 12, 17, 21, 23, 29, 30, 80, 115, 132, 148, 162, 192, 198
-🔹 Cause:
-In HTML5, self-closing void elements (e.g., <meta>, <link>, <img>, <input>) do not require a trailing slash (/).
-🔹 Solution:
-Remove the trailing slash (/) from self-closing elements.
-✅ Fixed Example:
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<img src="assets/images/Favicon/images/carriejones.webp" alt="Carrie Jones">
-________________________________________
-2. Illegal Character in Image Path (Space in Filename)
-🔹 Issue:
-"Bad value assets/images/Favicon/images/carrie jones.webp for attribute src on element img: Illegal character in path segment: space is not allowed."
-🔹 Affected Line:
-•	Line 80
-🔹 Cause:
-The filename carrie jones.webp contains a space, which is not allowed in a URL path.
-🔹 Solution:
-•	Rename the file without spaces, e.g., carrie_jones.webp or carriejones.webp.
-•	Update the src attribute accordingly.
-✅ Fixed Example:
-<img src="assets/images/Favicon/images/carriejones.webp" alt="Carrie Jones">
-________________________________________
-
-3. Backslash Used in Image Path (Incorrect Delimiter)
-🔹 Issue:
-
-"Backslash (\) used as path segment delimiter."
-
-🔹 Affected Line:
-
-Line 80
-🔹 Cause:
-The image path used backslashes (\) as directory separators, which are not valid in HTML. Only forward slashes (/) should be used in HTML and URLs.
-
-🔹 Solution:
-Replace the backslashes with forward slashes.
-
-✅ Fixed Example:
-
-html
-Copy
-Edit
-<img src="assets/images/Favicon/images/carriejones.webp" alt="Carrie Jones">
-
-4. Stray End Tag (</h3>)
-🔹 Issue:
-"Stray end tag h3."
-🔹 Affected Line:
-•	Line 160
-🔹 Cause:
-An extra closing </h3> tag was found without a matching opening <h3>.
-🔹 Solution:
-Check the HTML structure and ensure that every <h3> has a corresponding closing tag.
-✅ Fixed Example:
-<h3>Drama Classes</h3> <!-- Ensure this is properly opened and closed -->
-________________________________________
-5. Unclosed <div> Elements
-🔹 Issue:
-"Unclosed element div."
-🔹 Affected Lines:
-•	Line 104, 112
-🔹 Cause:
-There are <div> tags that were opened but never closed, causing a structural issue.
-🔹 Solution:
-Ensure that every <div> has a corresponding </div>.
-✅ Fixed Example:
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">Content here</div>
-    </div> <!-- Closing div for row -->
-</div> <!-- Closing div for container -->
-________________________________________
-6. End Tag for <section> Found, But Open Elements Exist
-🔹 Issue:
-"End tag section seen, but there were open elements."
-🔹 Affected Line:
-•	Line 176
-🔹 Cause:
-An extra unclosed <div> was present before </section>, causing validation failure.
-🔹 Solution:
-Remove the extra <div> before </section> and ensure all elements are closed properly.
-✅ Fixed Example:
-</div> <!-- Ensure all divs are closed -->
-</section> <!-- Section now properly closed -->
-
-  All errors fixed and retested to ensure compliant with W3C Mark up Validation tested on 07-02-202
 
 ## CSS Validation
 
 This project's CSS has been validated using the W3C CSS Validator:
 
-[![Valid CSS](http://jigsaw.w3.org/css-validator/images/vcss)](http://jigsaw.w3.org/css-validator/check/referer) date tested 07-02-2024
-
-## Accessibility & Contrast Testing
-
-To ensure the website meets accessibility standards, I tested the text contrast using the **WebAIM Contrast Checker**.
-
-### Contrast Adjustments Made:
-- Updated text color to **#1C1C1C** for improved readability and accessibility.
-- Ensured a **contrast ratio of 7.14:1**, which passes **WCAG AA & AAA standards** for normal text.
-- Verified all key text elements, including headers, paragraphs, and buttons, against their respective background colors.
-
-### Testing Tools Used:
-- [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
-- DevTools Accessibility Inspector
-
-By implementing these changes, the website ensures **better readability** for users with visual impairments while maintaining a **consistent and professional design**.
-
-
-
-### Lighthouse Performance Testing
-
-Performance, accessibility, best practices, and SEO were tested using Google Chrome's Lighthouse tool.
-
-#### Lighthouse Report - Mobile
-
-
-            **lighthouse Report** - Desktop
-
-![Lighthouse Desktop Results](placeholder-for-desktop-screenshot.png)
-
-Results:
-
-- Performance:
-- Accessibility:
-- Best Practices:
-- SEO:
-
-
-
-
-  ### Manual Testing - Contact Form Validation
-
-| Test Case | Expected Outcome | Actual Outcome | Pass/Fail |
-|-----------|----------------|---------------|----------|
-| Submit form with all fields filled correctly | Form submits successfully and redirects to the thank-you page | ✅ Form submits as expected | Pass |
-| Submit form without entering a name | Error message appears, preventing submission | ✅ Error message displayed | Pass |
-| Submit form without entering an email | Error message appears, preventing submission | ✅ Error message displayed | Pass |
-| Submit form with an invalid email format | Error message appears, preventing submission | ✅ Error message displayed | Pass |
-| Submit form without entering a message | Error message appears, preventing submission | ✅ Form submits unexpectedly | Pass |
-
-### Responsiveness Testing
-
-The website was manually tested across various devices and screen sizes to ensure responsiveness:
-
-- **Devices Tested:**
-  - iPhone 12 (mobile)
-  - iPad Pro (tablet)
-  - HP (desktop)
-- **Browsers Tested:**
-  - Google Chrome
-  - Mozilla Firefox
-  - Safari
-
-### Issue:
-- The height of the hero section was too large, causing layout issues on smaller devices.
-
-### Fix:
-- Reduced the height of the hero section to make it more responsive and improve layout across various devices.
+[![Valid CSS](INSERT HERE ](http://jigsaw.w3.org/css-validator/check/referer) date tested 07-02-2024
 
 ### Testing:
-- The change was tested on the following devices using **Chrome Developer Tools**: tested on 07-02-2025
+- Tested on the following devices using **Chrome Developer Tools**: tested on 07-02-2025
   - **Surface Pro** (Desktop view)
   - **iPad** (Tablet view)
   - **Galaxy Z Fold** (Mobile view)
-
-
-
-### Debugging Tools
-
-- [Diffchecker](https://www.diffchecker.com): Used to compare code versions to resolve issues.
-- **Google Chrome DevTools:** Utilized for live debugging and inspecting responsiveness.
 
 ### User Stories Testing
 
@@ -841,7 +598,8 @@ This section acknowledges the resources, tools, and inspiration used during the 
 ### Content
 
 - **Text Content:**  
-  All text content was creative writing by me and inspired by my friend and playwright author and drama teacher Claire Erasmus  to reflect the goals and message of the site.
+  All text content was creative writing by me.  The site and content was inspired by Claire Erasmus, a writer, playwright and drama teacher to showcase a portfolio of theatrical plays and drama classes. Design, layout and colour palette was a minimalistic and user-friendly modern design.
+...
 
 ### Media
 
@@ -849,11 +607,10 @@ This section acknowledges the resources, tools, and inspiration used during the 
   - Hero and section images were sourced from [Pexels](https://www.pexels.com) and are free to use under the Pexels license.  
   - Placeholder images were used during development and testing phases.
 
-### Development Environment
-
-- The project was developed using the [Code Institute IDE](https://codeinstitute.net/), which provided a stable and accessible environment for coding.
-
 ### Design and Development
+
+**Code Institute IDE** were utilised extensively, ensuring a smooth development and deployment process. This IDE is specifically tailored for students and includes pre-configured setups for Git, Python, and other web development tools. Since FEbruary 2025 the project is dev eloped within Visual Studio Code, which Code Institute moved oved to to ensure students develop with industry standard IDE that utilise co-pilot.
+
 
 - **Frameworks and Libraries:**  
   - [Bootstrap](https://getbootstrap.com): Used for the grid system, responsive utilities, and components like the navbar and buttons.  
@@ -862,6 +619,7 @@ This section acknowledges the resources, tools, and inspiration used during the 
   - Fonts were sourced from [Google Fonts](https://fonts.google.com):  
     - **Playfair Display**: For headings.  
     - **Lora**: For body text.  
+
 - **CSS Enhancements:**  
   - Custom CSS was written to modify Bootstrap defaults and add unique styling to match the website’s theme.
 
@@ -877,7 +635,7 @@ This section acknowledges the resources, tools, and inspiration used during the 
 - [W3C HTML Validator](https://validator.w3.org): Used to test and validate the HTML structure.  
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator): Used to validate CSS code and ensure compliance with best practices.
 
-### Testing Tools
+### Debugging Tools
 
 - [Diffchecker](https://www.diffchecker.com): Used for comparing code versions during debugging and testing.  
 - [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/): For testing and debugging across multiple screen sizes.
@@ -886,26 +644,18 @@ This section acknowledges the resources, tools, and inspiration used during the 
 
 - The **social media section** was adapted from the **Code Institute Online Tutorials** as part of the learning curriculum.
 
-### Wireframing
-
- The wireframes for this project were hand-drawn to outline the layout and structure for the website across three main screen sizes: mobile, tablet, and desktop. The hand-drawn designs were influenced by lessons learned in the Code Institute tutorials and guidance from other web wireframe planning tools. The process of creating wireframes included: - Sketching the general layout for responsive design. - Ensuring that all key sections (header, hero, features, portfolio, and footer) were adaptable to different screen sizes. - Planning navigation and content flow to enhance user experience. While these wireframes were not created using professional wireframing tools, tools like [Balsamiq](https://balsamiq.com) and lessons from the Code Institute curriculum provided inspiration and structure for their design.
 
 ### Guidance and Mentorship
 
 - Special thanks to **Richard Wells**, my Code Institute mentor, for providing guidance, feedback, and support throughout the project.
 
-### Hosting Tools The project was hosted using
+### Hosting Tools
+## The project was hosted using
 
 **GitHub.com**- [GitHub Pages](https://pages.github.com): For hosting the website.  
-**Code Institute IDE** were utilised extensively, ensuring a smooth development and deployment process. This IDE is specifically tailored for students and includes pre-configured setups for Git, Python, and other web development tools.
 
 ### Acknowledgements
 
 - Thanks to the **Code Institute** for providing comprehensive learning resources and templates to support project development.  
 - Online communities like [Stack Overflow](https://stackoverflow.com) for solutions and insights during development.
 
-### Inspiration
-
-- This website was inspired by my friend and children’s drama teacher, Claire Erasmus, a writer and up and coming playwright living locally in my community.  It was crafted with the intent to showcase her potential portfolio of theatrical plays and drama classes.  
-- Design inspiration for layout and colour palette was influenced by minimalistic and user-friendly modern web designs.
-...

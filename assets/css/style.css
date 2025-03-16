@@ -32,7 +32,7 @@
     /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
     /*header*/
     header {
-        background-color: #CBA328;
+        background-color: #a5841f;
         padding: 10px 20px;
         text-align: left;
         justify-content: space-between;
@@ -62,13 +62,14 @@
 
     .header-color {
 
-        color: #cba328; /* Darker shade for better contrast */
+        color: #a5841f; /* Darker shade for better contrast */
+        font-weight: bold;
         }
         
    
     .nav-bg {
 
-        background-color: #cba328;
+        background-color: #a5841f;
 
 
     }
@@ -100,7 +101,7 @@
     }
     
     .hero-text p {
-        color: #3E2A47;  !important; /* Dark purple for paragraph text */
+        color: #3E2A47 !important; /* Dark purple for paragraph text */
     }
     
     
