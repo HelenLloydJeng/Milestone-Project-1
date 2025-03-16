@@ -30,7 +30,7 @@ h1 {
 /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
 /*header*/
 header {
-  background-color: #a5841f;
+  background: #a5841f;
   padding: 10px 20px;
   text-align: left;
   justify-content: space-between;
@@ -40,16 +40,18 @@ header {
 }
 
 .hero-bg {
-  background-image: url(../images/Favicon/IMAGES/pexels-freestockpro-12955808.jpg);
+  background-image: url(../images/featherinkquill.webp);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  background-attachment: fixed;
+  height:100vh;
+  
 }
 
 .header-color {
   color: #a5841f; /* Darker shade for better contrast */
-  font-weight: bold;
+  
 }
 
 .nav-bg {
