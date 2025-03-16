@@ -169,7 +169,7 @@
 
     h2 {
         font-family: "Playfair Display", "serif";
-        color: #CBA328;
+        color:  #a5841f;;
         margin-bottom: 10px;
     }
 
@@ -191,14 +191,14 @@
         /*image responsive*/
         height: auto;
         /*maintain ratio aspect*/
-        border: 5px solid #CBA328;
+        border: 5px solid  #a5841f;;
         /*add the border color*/
         margin-bottom: 20px;
         /*add spacing*/
     }
 
     #bio h2 {
-        color: #CBA328;
+        color:  #a5841f;;
         font-family: "Playfair Display", serif;
         margin-bottom: 15px;
         text-align: center;
@@ -223,7 +223,7 @@
     /*card styling*/
     .card {
         transition: transform 0.3s;
-        border: #CBA328;
+        border:  #a5841f;;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         overflow: hidden;
     }
@@ -247,8 +247,8 @@
 
     .card-title {
         font-weight: bold;
-        color: #CBA328
-    }
+        color:  #a5841f;
+        }
 
     .card-text {
         font-size: 1rem;
@@ -258,7 +258,7 @@
 
     .drama-header {
 
-        color: #cba328;
+        color:  #a5841f;
 
     }
 
@@ -274,7 +274,7 @@
     }
 
     #main-footer .social-icons a {
-        color: #CBA328 !important;
+        color:  #a5841f !important;
         /* Gold for the social icons */
         margin: 0 10px;
         transition: color 0.3s ease-in-out;
