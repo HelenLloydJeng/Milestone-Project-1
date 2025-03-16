@@ -1,358 +1,323 @@
-    @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 
-    /*Asterisk wildcard selector to override default styles added by the browser */
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
+/*Asterisk wildcard selector to override default styles added by the browser */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
-    /*general styles*/
-    body {
-        min-height: 100vh;
-        display: flex;
-        flex-direction: column;
+/*general styles*/
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 
+  /* Generic project styles */
+  color: #1c1c1c;
+  font-family: "Lora", "serif";
+}
+img {
+  width: 100%; /* Adjust based on container */
+  height: auto; /* Maintain aspect ratio */
+  aspect-ratio: attr(width) / attr(height); /* Helps browsers allocate space */
+}
 
-           
-        /* Generic project styles */
-        color: #1C1C1C;
-        font-family: "Lora", "serif";
-    }
-    img {
-        width: 100%;  /* Adjust based on container */
-        height: auto; /* Maintain aspect ratio */
-        aspect-ratio: attr(width) / attr(height); /* Helps browsers allocate space */
-    }
+h1 {
+  font-family: "Playfair Display", "serif";
+}
 
-    h1 {
-        font-family: "Playfair Display", "serif";
-    }
+/*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
+/*header*/
+header {
+  background-color: #a5841f;
+  padding: 10px 20px;
+  text-align: left;
+  justify-content: space-between;
+  /*space between logo and burger*/
+  display: flex;
+  align-items: center;
+}
 
-    /*Color palette for site Hex Codes: #FFFFF0, #CBA328, #5C5346*/
-    /*header*/
-    header {
-        background-color: #a5841f;
-        padding: 10px 20px;
-        text-align: left;
-        justify-content: space-between;
-        /*space between logo and burger*/
-        display: flex;
-        align-items: center;
-      
+.hero-bg {
+  background-image: url(../images/Favicon/IMAGES/pexels-freestockpro-12955808.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
 
+.header-color {
+  color: #a5841f; /* Darker shade for better contrast */
+  font-weight: bold;
+}
 
-    }
+.nav-bg {
+  background-color: #a5841f;
+}
 
-    .hero-bg {
+header a {
+  text-decoration: none;
+  /*remove underline*/
+  color: inherit;
+}
 
-        background-image: url(../images/Favicon/IMAGES/pexels-freestockpro-12955808.jpg);
+/*optimized for mobile*/
+header h1 {
+  font-size: 1.2rem;
+  color: #fffff0;
+}
 
-        background-size: cover;
+.hero-img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
-        background-position: center;
+.hero-text {
+  color: #3e2a47; /* Dark purple for better contrast */
+}
 
-        background-repeat: no-repeat;
+.hero-text p {
+  color: #3e2a47 !important; /* Dark purple for paragraph text */
+}
 
-        min-height: 100vh;
+/*change button color globally overide bootstrap*/
 
-        margin: 0;
-
-    }
-
-    .header-color {
-
-        color: #a5841f; /* Darker shade for better contrast */
-        font-weight: bold;
-        }
-        
-   
-    .nav-bg {
-
-        background-color: #a5841f;
-
-
-    }
-
-
-    header a {
-        text-decoration: none;
-        /*remove underline*/
-        color: inherit;
-
-    }
-
-    /*optimized for mobile*/
-    header h1 {
-        font-size: 1.2rem;
-        color: #FFFFF0;
-    }
-
-    .hero-img {
-        display: block;
-        max-width: 100%;
-        height: auto;
-        object-fit: cover;
-
-    }
-
-    .hero-text {
-        color: #3E2A47; /* Dark purple for better contrast */
-    }
-    
-    .hero-text p {
-        color: #3E2A47 !important; /* Dark purple for paragraph text */
-    }
-    
-    
-    /*change button color globally overide bootstrap*/
-
-   .btn {
-    background-color: #CBA328; /* Retain gold background */
-    border-color: #5C5346 !important;
-    color: #3E2A47; /* Darker text color */
+.btn {
+  background-color: #cba328; /* Retain gold background */
+  border-color: #5c5346 !important;
+  color: #3e2a47; /* Darker text color */
 }
 
 .btn:hover {
-    background-color: #a29e92;
-    border-color: #CBA328;
-    color: #FFFFF0; /* Ivory text on hover */
+  background-color: #a29e92;
+  border-color: #cba328;
+  color: #fffff0; /* Ivory text on hover */
 }
 
+.navbar {
+  background-color: #cba328 !important;
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  /* Ensures it stays above other content */
+}
 
+.navbar .nav-link {
+  color: #3e2a47 !important; /* Dark Purple for higher contrast */
 
+  /* overide bootstrap color Replace my text color */
+  transition: color 0.3s ease;
+  /* Smooth transition */
+}
+.navbar .nav-link:hover {
+  color: #f2f0eb !important;
+  /* color on hover */
+}
 
+.navbar .navbar-brand {
+  color: #3e2a47 !important;
+  /* override bootstrap colourcolor */
+}
 
-    .navbar {
-        background-color: #CBA328 !important;
-        position: sticky !important;
-        top: 0 !important;
-        z-index: 1000 !important;
-        /* Ensures it stays above other content */
-    }
+.hero-section .overlay {
+  margin: 0;
+  padding: 0;
+}
 
-   .navbar .nav-link {
-    color: #3E2A47 !important; /* Dark Purple for higher contrast */
-        
-        /* overide bootstrap color Replace my text color */
-        transition: color 0.3s ease;
-        /* Smooth transition */
-    }
-    .navbar .nav-link:hover {
-        color: #f2f0eb !important;
-        /* color on hover */
-    }
+/* Main content */
+main {
+  background-color: #fffff0;
+  /*main element to push main down to keep footer at bottom*/
+  flex: 1 0 auto;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 15px;
+}
 
-    .navbar .navbar-brand {
-        color:  #3E2A47  !important;
-        /* override bootstrap colourcolor */
-    }
+h2 {
+  font-family: "Playfair Display", "serif";
+  color: #a5841f;
+  margin-bottom: 10px;
+}
 
-  
+#bio {
+  background-color: #f9f9f9;
+  /*ligt background */
+  padding: 50px 0;
+  /* to adjustsection padding*/
+}
 
+#bio .container {
+  max-width: 1200px;
+  /*limit maximun width*/
+  margin: auto;
+}
 
-    .hero-section .overlay {
-        margin: 0;
-        padding: 0;
-    }
+#bio img {
+  max-width: 100%;
+  /*image responsive*/
+  height: auto;
+  /*maintain ratio aspect*/
+  border: 5px solid #a5841f;
+  /*add the border color*/
+  margin-bottom: 20px;
+  /*add spacing*/
+}
 
-    /* Main content */
-    main {
-        background-color: #FFFFF0;
-        /*main element to push main down to keep footer at bottom*/
-        flex: 1 0 auto;
-        font-size: 1rem;
-        line-height: 1.5;
-        padding: 15px;
+#bio h2 {
+  color: #a5841f;
+  font-family: "Playfair Display", serif;
+  margin-bottom: 15px;
+  text-align: center;
+}
 
-    }
+#bio p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 10px;
+  color: #3e2a47;
+  text-align: justify;
+  /* Align text  */
+}
 
-    h2 {
-        font-family: "Playfair Display", "serif";
-        color:  #a5841f;;
-        margin-bottom: 10px;
-    }
+/*style portfolio*/
+#portfolio {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
-    #bio {
-        background-color: #f9f9f9;
-        /*ligt background */
-        padding: 50px 0;
-        /* to adjustsection padding*/
-    }
+/*card styling*/
+.card {
+  transition: transform 0.3s;
+  border: #a5841f;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
 
-    #bio .container {
-        max-width: 1200px;
-        /*limit maximun width*/
-        margin: auto
-    }
+.card:hover {
+  transform: scale(1.05);
+}
 
-    #bio img {
-        max-width: 100%;
-        /*image responsive*/
-        height: auto;
-        /*maintain ratio aspect*/
-        border: 5px solid  #a5841f;;
-        /*add the border color*/
-        margin-bottom: 20px;
-        /*add spacing*/
-    }
+/*ensure image dont overflow*/
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+  /*image fills white space*/
+}
 
-    #bio h2 {
-        color:  #a5841f;;
-        font-family: "Playfair Display", serif;
-        margin-bottom: 15px;
-        text-align: center;
-    }
+/* Fix overflow issue for Drama Classes */
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
 
-    #bio p {
-        font-size: 1rem;
-        line-height: 1.6;
-        margin-bottom: 10px;
-        color:  #3E2A47 
-        text-align: justify;
-        /* Align text  */
-    }
+.card-title {
+  font-weight: bold;
+  color: #a5841f;
+}
 
-    /*style portfolio*/
-    #portfolio {
-        padding-top: 50px;
-        padding-bottom: 50px;
+.card-text {
+  font-size: 1rem;
+  color: #3e2a47;
+  line-height: 1.5;
+}
 
-    }
+.drama-header {
+  color: #a5841f;
+}
 
-    /*card styling*/
-    .card {
-        transition: transform 0.3s;
-        border:  #a5841f;;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        overflow: hidden;
-    }
+/*Footer*/
+footer#main-footer {
+  background-color: #5c5346 !important;
+  /* Brown from your palette */
+  color: #fffff0 !important;
+  /* Ivory text for readability */
+  padding: 20px 0 !important;
+  /* Adjust padding for spacing */
+  text-align: center !important;
+}
 
-    .card:hover {
-        transform: scale(1.05)
-    }
+#main-footer .social-icons a {
+  color: #a5841f !important;
+  /* Gold for the social icons */
+  margin: 0 10px;
+  transition: color 0.3s ease-in-out;
+  /* Smooth hover effect */
+}
 
-    /*ensure image dont overflow*/
-    .card-img-top {
-        height: 300px;
-        object-fit: cover;
-        /*image fills white space*/
-    }
+#main-footer .social-icons a:hover {
+  color: #a98624;
+  /* Darker gold for hover effect */
+}
 
-    /* Fix overflow issue for Drama Classes */
-    .img-fluid {
-        max-width: 100%;
-        height: auto;
-    }
+#main-footer p {
+  margin: 10px 0;
+  /* Space between paragraphs */
+  font-size: 0.9rem;
+  /* Slightly smaller text for footer */
+}
 
-    .card-title {
-        font-weight: bold;
-        color:  #a5841f;
-        }
+#main-footer .social-icons {
+  margin: 15px 0;
+  /* Space above and below social icons */
+}
 
-    .card-text {
-        font-size: 1rem;
-        color: #3E2A47 ;
-        line-height: 1.5;
-    }
+/*for tablets min width 768px) */
+@media (min-width: 768px) {
+  header {
+    text-align: left;
+    /* Align content to the left */
+    padding: 20px;
+  }
 
-    .drama-header {
+  header h1 {
+    font-size: 1.5rem;
+  }
 
-        color:  #a5841f;
+  nav ul {
+    flex-direction: row;
+    /*align links*/
+    justify-content: right;
+  }
 
-    }
+  /*space between margins*/
+  nav ul li {
+    margin: 0 15px;
+  }
+}
 
-    /*Footer*/
-    footer#main-footer {
-        background-color: #5C5346!important;
-        /* Brown from your palette */
-        color: #FFFFF0 !important;
-        /* Ivory text for readability */
-        padding: 20px 0 !important;
-        /* Adjust padding for spacing */
-        text-align: center !important;
-    }
+/* For Desktops (min-width: 1024px) */
 
-    #main-footer .social-icons a {
-        color:  #a5841f !important;
-        /* Gold for the social icons */
-        margin: 0 10px;
-        transition: color 0.3s ease-in-out;
-        /* Smooth hover effect */
-    }
+@media (min-width: 1024px) {
+  header {
+    padding: 30px;
+  }
 
-    #main-footer .social-icons a:hover {
-        color: #a98624;
-        /* Darker gold for hover effect */
-    }
+  header h1 {
+    font-size: 2rem;
+    /*larger for desktops*/
+  }
 
-    #main-footer p {
-        margin: 10px 0;
-        /* Space between paragraphs */
-        font-size: 0.9rem;
-        /* Slightly smaller text for footer */
-    }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
 
-    #main-footer .social-icons {
-        margin: 15px 0;
-        /* Space above and below social icons */
-    }
+  .hero {
+    height: 80vh; /*reduce height for medium devices*/
+  }
+  .card-img-top {
+    height: 400px;
+  }
 
+  .card-title {
+    font-size: 1.5rem;
+  }
 
-
-    /*for tablets min width 768px) */
-    @media (min-width: 768px) {
-        header {
-            text-align: left;
-            /* Align content to the left */
-            padding: 20px;
-        }
-
-        header h1 {
-            font-size: 1.5rem;
-        }
-
-        nav ul {
-            flex-direction: row;
-            /*align links*/
-            justify-content: right;
-        }
-
-        /*space between margins*/
-        nav ul li {
-            margin: 0 15px;
-        }
-    }
-
-    /* For Desktops (min-width: 1024px) */
-
-    @media (min-width: 1024px) {
-        header {
-            padding: 30px;
-        }
-
-        header h1 {
-            font-size: 2rem;
-            /*larger for desktops*/
-        }
-        
-        main {
-            max-width: 1200px;
-            margin: 0 auto;
-        }
-
-        .hero {
-            height: 80vh; /*reduce height for medium devices*/
-        }
-        .card-img-top {
-            height: 400px;
-        }
-
-        .card-title {
-            font-size: 1.5rem;
-        }
-
-        .card-text {
-            font-size: 1rem;
-        }
-    }
+  .card-text {
+    font-size: 1rem;
+  }
+}
