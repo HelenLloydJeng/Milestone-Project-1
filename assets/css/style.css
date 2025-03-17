@@ -20,7 +20,7 @@ body {
 img {
   width: 100%; /* Adjust based on container */
   height: auto; /* Maintain aspect ratio */
-  aspect-ratio: attr(width) / attr(height); /* Helps browsers allocate space */
+  aspect-ratio: 16/9; /* Helps browsers allocate space */
 }
 
 h1 {
@@ -40,7 +40,7 @@ header {
 }
 
 .hero-bg {
-  background-image: url("assets/images/featherinkquill.webp");
+  background-image: url("../images/inkquill.webp");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -278,6 +278,9 @@ footer#main-footer {
   header h1 {
     font-size: 1.5rem;
   }
+  header h3 {
+    font-size: 1.2rem;
+  }
 
   nav ul {
     flex-direction: row;
@@ -290,6 +293,7 @@ footer#main-footer {
     margin: 0 15px;
   }
 }
+
 
 /* For Desktops (min-width: 1024px) */
 

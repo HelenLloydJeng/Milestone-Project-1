@@ -3,7 +3,7 @@
 
 The Carrie Jones Portfolio website is designed to showcase the artistic talents and professional portfolio of an writer  and drama coach. The site appeals to theatre enthusiasts, potential collaborators, and students interested in drama classes.
 
-##webpages across all devices (![ alt carrie Jones Webpages](<assets/images/Favicon/images/across all devices.png>))
+##webpages across all devices (![ alt carrie Jones Webpages](<assets\images\images\across all devices.png>))
 
 ## Color Palette  
 
@@ -452,11 +452,6 @@ The website adapts seamlessly across devices using media queries:
    - Adjusted text colors to **meet WCAG contrast guidelines**.  
    - Enhanced contrast for buttons and navigation links.  
 
-### **🚀 Results After Fixes:**  
-✔ **Performance:** Improved  
-✔ **Accessibility:** Improved  
-✔ **SEO & Best Practices:** Enhanced  
-
 ---
 
 ## **Fixing Uneven Card Heights**  
@@ -477,11 +472,11 @@ To ensure portfolio cards maintain equal height, the following **Bootstrap utili
   3. **Backslash in Image Path** → Changed `\` to `/` in file paths.  
   4. **Stray End Tags & Unclosed `<div>` Elements** → Corrected missing or extra closing tags.  
 
-🗓 **Retested on:** 07-02-2025 – **All errors resolved.**  
+🗓 **Retested on:** 07-02-2025 – and 17-03-2025**All errors resolved.**  
 
 ### **✅ CSS Validation**  
 - Validated with (![W3C CSS Validator](assets\images\Screenshot_CSS_jigsaw.w3.org.jpeg)) 
-- **No major errors detected** – CSS follows best practices for responsiveness and accessibility.  
+- **No major errors detected** – tested on 07-02-25 nad 17-03-25 CSS follows best practices for responsiveness and accessibility.  
 
 ---
 
@@ -490,6 +485,7 @@ To ensure portfolio cards maintain equal height, the following **Bootstrap utili
 - Used **WebAIM Contrast Checker** to verify text readability.  
 - Adjustments made:  
   - Updated text color to `#1C1C1C` for better contrast.  
+  update header colour to `#5841f` for greater contrast
   - Ensured **contrast ratio of 7.14:1**, passing **WCAG AA & AAA standards**.  
 - Verified using **DevTools Accessibility Inspector**.  
 
@@ -502,7 +498,11 @@ Performance, accessibility, best practices, and SEO were tested using **Google C
 
 📱 **Mobile Results:**  
 🖥 **Desktop Results:**  
-*(Insert screenshots or percentage values here)*  
+performance 90
+accessibilty 100
+seo 100
+best practices 96
+* 
 
 ### **Identified Issues & Fixes**  
 - **Issue:** Hero section was too large on mobile.  
@@ -568,28 +568,6 @@ I deployed the page on GitHub pages via the following procedure: -
 
 You  can find the live site via the following URL [Helen Lloyds MileStone Project 1 Live Webpage] (<https://helenlloydjeng.github.io/Milestone-Project-1/>)
 
-
-### HTML Validation
-
-- The HTML code was tested using the [W3C HTML Validator](assets/images/Favicon/images/Screenshot_14-12-2024_9422_validator.w3.org.jpeg).
-- Results: The HTML code has a few errors of unclosed elements, but no no critical issues, ensuring semantic structure and compliance with web standards. These have been corrected and re tested - below.
-
-
-## CSS Validation
-
-This project's CSS has been validated using the W3C CSS Validator:
-
-[![Valid CSS](INSERT HERE ](http://jigsaw.w3.org/css-validator/check/referer) date tested 07-02-2024
-
-### Testing:
-- Tested on the following devices using **Chrome Developer Tools**: tested on 07-02-2025
-  - **Surface Pro** (Desktop view)
-  - **iPad** (Tablet view)
-  - **Galaxy Z Fold** (Mobile view)
-
-### User Stories Testing
-
-All user stories defined in the project scope were manually tested. The results of these tests ensured that the site met the requirements and provided a smooth user experience.
 
 ## Credits
 
