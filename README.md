@@ -430,7 +430,7 @@ The website adapts seamlessly across devices using media queries:
 **Main Technologies**
 
 - **HTML5**: For semantic and accessible page structure.
-- **CSS3**: Clean a## nd responsive design with a minimalist aesthetic.
+- **CSS3**: Clean and responsive design with a minimalist aesthetic.
 - **Bootstrap**: For responsive layouts, grid systems, and navigation components.
 - **Git & GitHub**: For version control and deployment.
 
@@ -472,11 +472,11 @@ To ensure portfolio cards maintain equal height, the following **Bootstrap utili
   3. **Backslash in Image Path** → Changed `\` to `/` in file paths.  
   4. **Stray End Tags & Unclosed `<div>` Elements** → Corrected missing or extra closing tags.  
 
-🗓 **Retested on:** 07-02-2025 – and 17-03-2025**All errors resolved.**  
+🗓 **Retested on:** 07-02-2025 – and 18-03-2025**All errors resolved.**  
 
 ### **✅ CSS Validation**  
 - Validated with (![W3C CSS Validator](assets\images\Screenshot_CSS_jigsaw.w3.org.jpeg)) 
-- **No major errors detected** – tested on 07-02-25 nad 17-03-25 CSS follows best practices for responsiveness and accessibility.  
+- **No major errors detected** – tested on 07-02-25 nad 18-03-25 CSS follows best practices for responsiveness and accessibility.  
 
 ---
 
@@ -487,7 +487,7 @@ To ensure portfolio cards maintain equal height, the following **Bootstrap utili
   - Updated text color to `#1C1C1C` for better contrast.  
   update header colour to `#5841f` for greater contrast
   - Ensured **contrast ratio of 7.14:1**, passing **WCAG AA & AAA standards**.  
-- Verified using **DevTools Accessibility Inspector**.  
+- Verified using **DevTools Accessibiligitty Inspector**.  
 
 ---
 
@@ -495,13 +495,18 @@ To ensure portfolio cards maintain equal height, the following **Bootstrap utili
 
 ### **Lighthouse Scores**  
 Performance, accessibility, best practices, and SEO were tested using **Google Chrome Lighthouse**.  
+TEsted 18-03-2025
 
 📱 **Mobile Results:**  
+perforance 89
+accessibility 100
+seo 100
+best practices 100
 🖥 **Desktop Results:**  
-performance 90
+performance 9097
 accessibilty 100
 seo 100
-best practices 96
+best practices 100
 * 
 
 ### **Identified Issues & Fixes**  
@@ -542,19 +547,25 @@ best practices 96
 
 ✅ **Website functions properly across all screen sizes & browsers.**  
 
----
-
-## 🛠 **Debugging Tools Used**  
-- **Google Chrome DevTools** → For inspecting elements & live debugging.  
-- **Diffchecker** → Compared code versions to detect & fix issues.  
-
----
-
 ## 🎯 **User Stories Testing**  
 All defined user stories were manually tested to ensure a smooth user experience.  
 
 ✅ **Website meets all functional and usability requirements.**  
 
+### Code Validation Tools
+
+- [W3C HTML Validator](https://validator.w3.org): Used to test and validate the HTML structure.  
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator): Used to validate CSS code and ensure compliance with best practices.
+
+### Debugging Tools
+
+- [Diffchecker](https://www.diffchecker.com): Used for comparing code versions during debugging and testing.  
+- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/): For testing and debugging across multiple screen sizes.
+
+
+### Hosting Tools
+## The project was hosted using
+**GitHub.com**- [GitHub Pages](https://pages.github.com): For hosting the website.  
 
 
 ## **Deployment**
@@ -568,11 +579,9 @@ I deployed the page on GitHub pages via the following procedure: -
 
 You  can find the live site via the following URL [Helen Lloyds MileStone Project 1 Live Webpage] (<https://helenlloydjeng.github.io/Milestone-Project-1/>)
 
-
 ## Credits
 
 This section acknowledges the resources, tools, and inspiration used during the development of the website.
-
 ### Content
 
 - **Text Content:**  
@@ -584,6 +593,8 @@ This section acknowledges the resources, tools, and inspiration used during the 
 - **Images:**  
   - Hero and section images were sourced from [Pexels](https://www.pexels.com) and are free to use under the Pexels license.  
   - Placeholder images were used during development and testing phases.
+## **Resizing tools**
+  [compressing images](https://squoosh.app/), to improve performance
 
 ### Design and Development
 
@@ -607,33 +618,17 @@ This section acknowledges the resources, tools, and inspiration used during the 
 - [MDN Web Docs](https://developer.mozilla.org): Used for reference on advanced HTML and CSS practices.  
 - [Bootstrap Documentation](https://getbootstrap.com): For styling and responsive design techniques.  
 - [Cheat Sheets](https://flexbox.mddocs.io/): Various online cheat sheets and resources were consulted for quick references on Flexbox and Grid systems.
-
-### Code Validation Tools
-
-- [W3C HTML Validator](https://validator.w3.org): Used to test and validate the HTML structure.  
-- [W3C CSS Validator](https://jigsaw.w3.org/css-validator): Used to validate CSS code and ensure compliance with best practices.
-
-### Debugging Tools
-
-- [Diffchecker](https://www.diffchecker.com): Used for comparing code versions during debugging and testing.  
-- [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/): For testing and debugging across multiple screen sizes.
+- [dev docs](https://developer.chrome.com/docs)
 
 ### Templates and Tutorials
 
 - The **social media section** was adapted from the **Code Institute Online Tutorials** as part of the learning curriculum.
 
-
-### Guidance and Mentorship
-
-- Special thanks to **Richard Wells**, my Code Institute mentor, for providing guidance, feedback, and support throughout the project.
-
-### Hosting Tools
-## The project was hosted using
-
-**GitHub.com**- [GitHub Pages](https://pages.github.com): For hosting the website.  
-
 ### Acknowledgements
 
 - Thanks to the **Code Institute** for providing comprehensive learning resources and templates to support project development.  
 - Online communities like [Stack Overflow](https://stackoverflow.com) for solutions and insights during development.
+### Guidance and Mentorship
+
+- Special thanks to **Richard Wells**, my Code Institute mentor, for providing guidance, feedback, and support throughout the project.
 
